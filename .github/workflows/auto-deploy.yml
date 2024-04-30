@@ -25,6 +25,10 @@ jobs:
         run: pnpm install
       - name: Run tests
         run: pnpm run test
-      - name: Build and deploy to gh-pages
-        run: pnpm run deploy
+      - name: Build page
+        run: pnpm run build
+      - name: Deploy built page
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: build
       
