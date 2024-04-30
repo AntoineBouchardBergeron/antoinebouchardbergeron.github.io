@@ -1,0 +1,36 @@
+header {
+    font-style: italic;
+    display: flex;
+    padding: 1rem;
+}
+
+div {
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 2;
+}
+
+h1 {
+    align-items: flex-start;
+    font-weight: 100;
+    a {
+        color: var(--text-primary);
+        text-decoration: none;
+    };
+}
+
+ul {
+    align-items: flex-start;
+}
+
+li {
+    display: inline-flex;
+    list-style: none;
+}
+
+a {
+    padding: 0.3rem;
+    color: var(--text-secondary);
+    text-decoration: none;
+};
+
