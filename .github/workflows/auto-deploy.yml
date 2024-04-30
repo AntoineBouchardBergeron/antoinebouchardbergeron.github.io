@@ -18,6 +18,9 @@ jobs:
         with:
           node-version: '20.x'
           cache: 'pnpm'
+      - name: Set the configuration 
+        run: git config user.email "bouchard.bergeron.antoine@gmail.com" |
+          git config user.name "Antoine Bouchard-Bergeron"
       - name: Install dependancies
         run: pnpm install
       - name: Run tests
