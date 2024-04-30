@@ -1,6 +1,8 @@
 {
   "name": "cv-antoine",
   "homepage": "https://antoinebouchardbergeron.github.io/react-gh-pages",
+  "user": "Antoine Bouchard-Bergeron",
+  "email": "bouchard.bergeron.antoine@gmail.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -22,7 +24,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --detectOpenHandles",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "predeploy": "pnpm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
