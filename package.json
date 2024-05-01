@@ -26,7 +26,9 @@
     "test": "react-scripts test --detectOpenHandles",
     "eject": "react-scripts eject",
     "predeploy": "pnpm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "extract": "lingui extract",
+    "compile": "lingui compile --typescript"
   },
   "eslintConfig": {
     "extends": [
