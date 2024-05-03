@@ -12,3 +12,68 @@ msgstr ""
 "Last-Translator: \n"
 "Language-Team: \n"
 "Plural-Forms: \n"
+
+#. js-lingui-explicit-id
+#: src/Components/Header.tsx:33
+msgid "Software"
+msgstr "Logiciel"
+
+#. js-lingui-explicit-id
+#: src/Components/Header.tsx:38
+msgid "Mecanic"
+msgstr "Mécanique"
+
+#. js-lingui-explicit-id
+#: src/Components/Header.tsx:43
+msgid "Music"
+msgstr "Musique"
+
+#. js-lingui-explicit-id
+#: src/Components/Header.tsx:48
+msgid "Contact"
+msgstr "Contact"
+
+#. js-lingui-explicit-id
+#: src/Components/About.tsx:48
+msgid "About.Learning.Description"
+msgstr "Ce faisant, j'ai consolidé mes connaissances de programmation fonctionnel en front-end (html? htmlx?, css). J'ai enfin appris également sur le procédé d'achat de domaine, d'hébergement sans passer par un des géants (quoique, github, c'est rendu plutôt gros non?)"
+
+#. js-lingui-explicit-id
+#: src/Components/About.tsx:15
+msgid "About.WhyAnswer"
+msgstr "J'ai toujours été le genre a utiliser des raccourcis et (Je réalise maintenant que c'était une piètre approche) copier-coller. Je n'ai donc jamais approfondi mes connaissances de l'écriture du code fonctionnel. Depuis que j'ai l'occassion de retrouver du travail, j'ai été inspiré par mon bon ami Pascal Laprade à réécrire mon CV sous forme de web app, ce qui devrait me prouver être un bel apprentissage."
+
+#. js-lingui-explicit-id
+#: src/Components/About.tsx:39
+msgid "About.Features3"
+msgstr "Inspectable (Pour trouver tout mes secrets!)"
+
+#. js-lingui-explicit-id
+#: src/Components/About.tsx:25
+msgid "Key"
+msgstr "Inspectable (Pour trouver tout mes secrets!)"
+
+#. js-lingui-explicit-id
+#: src/Components/About.tsx:45
+msgid "About.Learning"
+msgstr "Apprentissages"
+
+#. js-lingui-explicit-id
+#: src/Components/About.tsx:9
+msgid "About.Intro"
+msgstr "Un homme simple, avec des intérets, des passes-temps et des connaissances écrit son Curriculum vitea en format web utilisant React, Typescript conservant un style fonctionnel"
+
+#. js-lingui-explicit-id
+#: src/Components/About.tsx:29
+msgid "About.Features1"
+msgstr "Stylé manuellement (Sass, css, scss, qui sait?)"
+
+#. js-lingui-explicit-id
+#: src/Components/About.tsx:34
+msgid "About.Features2"
+msgstr "Utilisation minimal de librairie/package (S'il y en a tout court (excepté React, on s'entend))"
+
+#. js-lingui-explicit-id
+#: src/Components/About.tsx:12
+msgid "About.Why"
+msgstr "Pourquoi"

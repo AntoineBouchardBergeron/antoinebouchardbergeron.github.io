@@ -1,7 +1,9 @@
+import React from "react";
 import { Fragment } from "react/jsx-runtime";
 import { ThemeKey, ThemeKeys } from "../Hooks/Theme";
 import "./Header.css";
 import ToggleButton from "./ToggleButton";
+import { Trans, useLingui } from "@lingui/react";
 
 type Props = {
   applyTheme: (newTheme: ThemeKey) => void;
@@ -9,8 +11,14 @@ type Props = {
 };
 
 const Header = (props: Props) => {
+  const { i18n } = useLingui();
   const handleThemeClick = (value: ThemeKey) => {
     props.applyTheme(value);
+  };
+
+  const handleLanguageClick = (value: string) => {
+    i18n.activate(value);
+    window.localStorage.setItem("langage", value);
   };
 
   return (
@@ -19,26 +27,42 @@ const Header = (props: Props) => {
         <h1>
           <a href="/">Antoine Bouchard-Bergeron</a>
         </h1>
-        <ul>
-          <li>
-            <a href="/Software">Software Eng.</a>
+        <ul className="navigation">
+          <li className="navigation">
+            <a href="/Software">
+              <Trans id="Software">Software Eng.</Trans>
+            </a>
           </li>
-          <li>
-            <a href="/Mec">Mecanical Eng.</a>
+          <li className="navigation">
+            <a href="/Mec">
+              <Trans id="Mecanic">Mecanical Eng.</Trans>
+            </a>
           </li>
-          <li>
-            <a href="/Music">Music</a>
+          <li className="navigation">
+            <a href="/Music">
+              <Trans id="Music">Music</Trans>
+            </a>
           </li>
-          <li>
-            <a href="/Contact">Contact</a>
+          <li className="navigation">
+            <a href="/Contact">
+              <Trans id="Contact">Contact</Trans>
+            </a>
           </li>
         </ul>
       </div>
-      <div>
-        <button>fr</button>
-        <span>/</span>
-        <button>en</button>
-        <span />
+      <div className="left">
+        {["en", "fr"].map((val, index) => (
+          <Fragment key={val}>
+            <ToggleButton
+              key={index}
+              isActive={i18n.locale === val}
+              label={val}
+              onClick={() => handleLanguageClick(val)}
+            />
+            {val !== "fr" && <span key={val}> / </span>}
+          </Fragment>
+        ))}
+        <br />
         {ThemeKeys.map((val, index) => (
           <Fragment key={val}>
             <ToggleButton

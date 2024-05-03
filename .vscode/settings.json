@@ -1,11 +1,11 @@
 {
-    "eslint.enable": true,
-    "eslint.debug": true,
-    "eslint.useFlatConfig": true,
-    "eslint.format.enable": true,
-    "eslint.rules.customizations": [
+    // "eslint.enable": true,
+    // "eslint.debug": true,
+    // "eslint.useFlatConfig": true,
+    // "eslint.format.enable": true,
+    // "eslint.rules.customizations": [
 
-    ],
+    // ],
     // "eslint.options": {
     //     "overrideConfig": {
     //         "env": {
