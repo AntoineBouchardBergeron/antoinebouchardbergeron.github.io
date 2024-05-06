@@ -1,0 +1,89 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2024-05-01 16:24-0400\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: en\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#. js-lingui-explicit-id
+#: src/Components/Header.tsx:33
+msgid "Software"
+msgstr "Software"
+
+#. js-lingui-explicit-id
+#: src/Components/Header.tsx:38
+msgid "Mecanic"
+msgstr "Mecanic"
+
+#. js-lingui-explicit-id
+#: src/Components/Header.tsx:43
+msgid "Music"
+msgstr "Music"
+
+#. js-lingui-explicit-id
+#: src/Components/Header.tsx:48
+msgid "Contact"
+msgstr "Contact"
+
+#. js-lingui-explicit-id
+#: src/Components/About.tsx:55
+msgid "About.Additionnal"
+msgstr "About.Additionnal"
+
+#. js-lingui-explicit-id
+#: src/Components/About.tsx:48
+msgid "About.Learning.Description"
+msgstr "Doing so, I have consolided my knowledge of front-end web programming, (html and css) I also finally have learned and completed the routing and hosting myself of web apps ."
+
+#. js-lingui-explicit-id
+#: src/Components/About.tsx:15
+msgid "About.WhyAnswer"
+msgstr "I always was the type to use shortcuts and (I realise why this was not the best approach way too late) copy-paste. I never truly deepened my knowledge of the web functionnal programming approach. Since I now have the opportunity to find work, I got inspired by my good friend Pascal Laprade to make my own Curriculum vitea as well as use this as a learning experience."
+
+#. js-lingui-explicit-id
+#: src/Components/About.tsx:39
+msgid "About.Features3"
+msgstr "Inspectable (Find out!)"
+
+#. js-lingui-explicit-id
+#: src/Components/About.tsx:25
+msgid "Key"
+msgstr "Key"
+
+#. js-lingui-explicit-id
+#: src/Components/About.tsx:45
+msgid "About.Learning"
+msgstr "Learning"
+
+#. js-lingui-explicit-id
+#: src/Components/About.tsx:9
+msgid "About.Intro"
+msgstr "Man with interests, hobbies and knowledge writing his cv in web form using React, Typescript, and functionnal programming."
+
+#. js-lingui-explicit-id
+#: src/Components/About.tsx:29
+msgid "About.Features1"
+msgstr "Manually styled (Sass, css, scss, who knows?)"
+
+#. js-lingui-explicit-id
+#: src/Components/About.tsx:34
+msgid "About.Features2"
+msgstr "Minimal usage of packages (if any, I guess time will tell)"
+
+#. js-lingui-explicit-id
+#: src/Components/About.tsx:58
+msgid "About.Additionnal.Description"
+msgstr "About.Additionnal.Description"
+
+#. js-lingui-explicit-id
+#: src/Components/About.tsx:12
+msgid "About.Why"
+msgstr "Why"

@@ -12,7 +12,7 @@ export const ThemeKeys = (
 
 const useTheme = () => {
   const localStorageTheme =
-    window.localStorage.getItem("theme") ??
+    window.localStorage.getItem("theme") as ThemeKey ??
     window.matchMedia("(prefers-colors-scheme: dark)").matches
       ? (Theme[0] as ThemeKey)
       : (Theme[1] as ThemeKey);

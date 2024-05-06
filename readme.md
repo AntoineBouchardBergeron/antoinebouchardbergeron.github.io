@@ -1,57 +1,46 @@
-## Antoine Bouchard-Bergeron (c'est moi!)
+# Getting Started with Create React App
 
-*Un homme simple, avec des intérets, des passes-temps et des connaissances écrit son Curriculum vitea en format web utilisant React, Typescript conservant un style fonctionnel*
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<sub>English will follow
+## Available Scripts
 
---------
+In the project directory, you can run:
 
-### Pourquoi
+### `npm start`
 
-J'ai toujours été le genre a utiliser des raccourcis et (Je réalise maintenant que c'était une piètre approche) copier-coller. Je n'ai donc jamais approfondi mes connaissances de l'écriture du code fonctionnel. Depuis que j'ai l'occassion de retrouver du travail, j'ai été inspiré par mon bon ami [Pascal Laprade](pascallaprade.com "Thank you Pascal!") à réécrire mon CV sous forme de web app, ce qui devrait me prouver être un bel apprentissage. 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### Éléments clés
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-- Stylé manuellement (Sass, css, scss, qui sait?)
-- Utilisation minimal de librairie/package (S'il y en a tout court (excepté React, on s'entend))
-- Inspectable (Pour trouver tout mes secrets!)
+### `npm test`
 
-### Apprentissages
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Ce faisant, j'ai consolidé mes connaissances de programmation fonctionnel en front-end (html? htmlx?, css). J'ai enfin appris également sur le procédé d'achat de domaine, d'hébergement sans passer par un des géants (quoique, github, c'est rendu plutôt gros non?)
+### `npm run build`
 
-#### Note additionnelle
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Je réalise maintenant que ce readme devrait être un landing page et non pas un readme, mais je suis un brin trop lâche pour tout changer maintenant, donc, je commence le projet et on verra si j'update le tout dans git!
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
----
+### `npm run eject`
 
-## Antoine Bouchard-Bergeron (that's me!)
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-*Man with interests, hobbies and knowledge writing his cv in web form using React, Typescript, and functionnal programming.*
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-<sub> En Français ci-haut
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
---------
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-### Why
+## Learn More
 
-I always was the type to use shortcuts and (I realise why this was not the best approach way too late) copy-paste. I never truly deepened my knowledge of the web functionnal programming approach. Since I now have the opportunity to find work, I got inspired by my good friend [Pascal Laprade](pascallaprade.com "Thank you Pascal!") to make my own Curriculum vitea as well as use this as a learning experience.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-### Key features
-
-- Manually styled (Sass, css, scss, who knows?) a
-- Minimal usage of packages (if any, I guess time will tell)
-- Inspectable (Find out!)
-
-### Learning
-
-Doing so, I have consolided my knowledge of front-end web programming, (html and css)
-I also finally have learned and completed the routing and hosting myself of web apps .
-
-
-
-#### additionnal notes
-
-This I first created as my readme, and I thought now, this should be the landing page, but I'm too lazy to transform it right away, so this will serve as a readme for now.
+To learn React, check out the [React documentation](https://reactjs.org/).
