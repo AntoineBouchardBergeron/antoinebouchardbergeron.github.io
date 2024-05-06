@@ -4,6 +4,11 @@ import { ThemeKey, ThemeKeys } from "../Hooks/Theme";
 import "./Header.css";
 import ToggleButton from "./ToggleButton";
 import { Trans, useLingui } from "@lingui/react";
+import { Link } from "react-router-dom";
+import { ContactPath } from "./Contact";
+import { MecanicPath } from "./Mecanic";
+import { SoftwarePath } from "./Software";
+import { MusicPath } from "./Music";
 
 type Props = {
   applyTheme: (newTheme: ThemeKey) => void;
@@ -29,24 +34,24 @@ const Header = (props: Props) => {
         </h1>
         <ul className="navigation">
           <li className="navigation">
-            <a href="/Software">
+            <Link to={SoftwarePath}>
               <Trans id="Software">Software Eng.</Trans>
-            </a>
+            </Link>
           </li>
           <li className="navigation">
-            <a href="/Mec">
+            <Link to={MecanicPath}>
               <Trans id="Mecanic">Mecanical Eng.</Trans>
-            </a>
+            </Link>
           </li>
           <li className="navigation">
-            <a href="/Music">
+            <Link to={MusicPath}>
               <Trans id="Music">Music</Trans>
-            </a>
+            </Link>
           </li>
           <li className="navigation">
-            <a href="/Contact">
+            <Link to={ContactPath}>
               <Trans id="Contact">Contact</Trans>
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
