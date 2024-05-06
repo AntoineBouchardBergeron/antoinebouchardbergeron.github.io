@@ -1,21 +1,30 @@
-import { useState } from "react"
+import { useState } from "react";
 
-export const Theme = ['light', 'dark'] as const
-
-const useTheme = () => {
-    const localStorageTheme = window.localStorage.getItem('theme') ?? window.matchMedia('(prefers-colors-scheme: dark)' ).matches ? Theme[0]: Theme[1]
-    const [theme, setTheme] = useState<String>(localStorageTheme)
-
-    const nextTheme = () => {
-        const newTheme = theme === 'Dark'? 'Light' : 'Dark'
-        setTheme(newTheme)
-    }
-
-    const getTheme = () => {
-
-    }
-
-    return [getTheme, nextTheme]
+export enum Theme {
+  "light",
+  "dark",
 }
 
-export default useTheme
+export type ThemeKey = keyof typeof Theme;
+export const ThemeKeys = (
+  Object.values(Theme) as Array<keyof typeof Theme>
+).filter((v) => isNaN(Number(v)));
+
+const useTheme = () => {
+  const localStorageTheme =
+    window.localStorage.getItem("theme") ??
+    window.matchMedia("(prefers-colors-scheme: dark)").matches
+      ? (Theme[0] as ThemeKey)
+      : (Theme[1] as ThemeKey);
+
+  const [theme, setTheme] = useState<ThemeKey>(localStorageTheme);
+
+  const applyTheme = (newTheme: ThemeKey) => {
+    setTheme(newTheme);
+    window.localStorage.setItem("theme", newTheme);
+  };
+
+  return { currentTheme: theme, applyTheme };
+};
+
+export default useTheme;

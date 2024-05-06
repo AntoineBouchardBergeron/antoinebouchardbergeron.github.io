@@ -4,7 +4,7 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   font-optical-sizing: auto;
-  font-weight: 200;
+  font-weight: 300;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -16,15 +16,15 @@ code {
 }
 
 :root {
-  --background: #090B0F;
-  --text-primary: #E9EBEF;
+  --background: #E9EBEF;
+  --text-primary: #090B0F;
   --text-secondary: #4368d7;
   --accent: #B31244;
 }
 
-[darktheme="light"] {
-  --background: #E9EBEF;
-  --text-primary: #090B0F;
+[data-theme='dark'] {
+  --background: #090B0F;
+  --text-primary: #E9EBEF;
   --text-secondary: #4368d7;
   --accent: #B31244;
 }

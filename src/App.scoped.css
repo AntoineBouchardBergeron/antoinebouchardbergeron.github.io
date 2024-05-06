@@ -1,4 +1,4 @@
-.App {
+.app {
   background-color: var(--background);
   min-height: 100vh;
   display: flex;
@@ -6,8 +6,16 @@
   align-items: center;
   justify-content: center;
   color: var(--text-primary);
+  transition: all .5s;
 }
 
 .content {
   max-width: 1080px;
+}
+
+button {
+  border: none;
+  color: var(--text-primary);
+  background-color: var(--background);
+  transition: all .5s;
 }

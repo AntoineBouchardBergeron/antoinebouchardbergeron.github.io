@@ -1,6 +1,6 @@
 {
   "name": "cv-antoine",
-  "homepage": "https://antoinebouchardbergeron.github.io/react-gh-pages",
+  "homepage": "https://antoinebouchardbergeron.github.io/",
   "user": "Antoine Bouchard-Bergeron",
   "email": "bouchard.bergeron.antoine@gmail.com",
   "version": "0.1.0",
@@ -47,5 +47,6 @@
   },
   "devDependencies": {
     "gh-pages": "^6.1.1"
-  }
+  },
+  "packageManager": "pnpm@9.0.6+sha1.648f6014eb363abb36618f2ba59282a9eeb3e879"
 }
