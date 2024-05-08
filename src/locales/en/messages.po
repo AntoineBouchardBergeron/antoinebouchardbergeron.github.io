@@ -14,49 +14,85 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. js-lingui-explicit-id
-#: src/Components/Header.tsx:33
+#: src/Components/Header.tsx:38
 msgid "Software"
 msgstr "Software"
 
 #. js-lingui-explicit-id
-#: src/Components/Header.tsx:38
+#: src/Components/Header.tsx:43
 msgid "Mecanic"
 msgstr "Mecanic"
 
 #. js-lingui-explicit-id
-#: src/Components/Header.tsx:43
+#: src/Components/Header.tsx:48
 msgid "Music"
 msgstr "Music"
 
 #. js-lingui-explicit-id
-#: src/Components/Header.tsx:48
+#: src/Components/Header.tsx:53
 msgid "Contact"
 msgstr "Contact"
 
 #. js-lingui-explicit-id
 #: src/Components/About.tsx:55
-msgid "About.Additionnal"
-msgstr "About.Additionnal"
+#~ msgid "About.Additionnal"
+#~ msgstr "About.Additionnal"
+
+#. js-lingui-explicit-id
+#: src/Components/About.tsx:58
+#~ msgid "About.Additionnal.Description"
+#~ msgstr "About.Additionnal.Description"
+
+#: src/Data/SoftwareExperience.ts:30
+msgid "August 2021"
+msgstr "August 2021"
+
+#: src/Components/Contact.tsx:7
+#: src/Components/Mecanic.tsx:7
+#: src/Components/Music.tsx:7
+#: src/Components/Software.tsx:7
+msgid "Coming soon"
+msgstr "Coming soon"
 
 #. js-lingui-explicit-id
 #: src/Components/About.tsx:48
 msgid "About.Learning.Description"
 msgstr "Doing so, I have consolided my knowledge of front-end web programming, (html and css) I also finally have learned and completed the routing and hosting myself of web apps ."
 
+#: src/Data/SoftwareExperience.ts:8
+msgid "FullStack"
+msgstr "FullStack"
+
 #. js-lingui-explicit-id
 #: src/Components/About.tsx:15
 msgid "About.WhyAnswer"
-msgstr "I always was the type to use shortcuts and (I realise why this was not the best approach way too late) copy-paste. I never truly deepened my knowledge of the web functionnal programming approach. Since I now have the opportunity to find work, I got inspired by my good friend Pascal Laprade to make my own Curriculum vitea as well as use this as a learning experience."
+msgstr "I always was the type to use shortcuts and (I realise why this was not the best approach way too late) copy-paste. I never truly deepened my knowledge of the web functionnal programming approach. Since I now have the opportunity to find work, I got inspired by my good friend <0>Pascal Laprade</0> to make my own Curriculum vitea as well as use this as a learning experience."
 
 #. js-lingui-explicit-id
 #: src/Components/About.tsx:39
 msgid "About.Features3"
 msgstr "Inspectable (Find out!)"
 
+#: src/Data/SoftwareExperience.ts:29
+msgid "January 2019"
+msgstr "January 2019"
+
+#: src/Data/SoftwareExperience.ts:14
+msgid "January 2024"
+msgstr "January 2024"
+
 #. js-lingui-explicit-id
 #: src/Components/About.tsx:25
 msgid "Key"
 msgstr "Key"
+
+#: src/Data/SoftwareExperience.ts:32
+msgid "Lead Software Developper"
+msgstr "Lead Software Developper"
+
+#: src/Data/SoftwareExperience.ts:31
+msgid "Lead the developpement for the prototyping of an AR app for luxury shopping"
+msgstr "Lead the developpement for the prototyping of an AR app for luxury shopping"
 
 #. js-lingui-explicit-id
 #: src/Components/About.tsx:45
@@ -68,6 +104,14 @@ msgstr "Learning"
 msgid "About.Intro"
 msgstr "Man with interests, hobbies and knowledge writing his cv in web form using React, Typescript, and functionnal programming."
 
+#: src/Data/SoftwareExperience.ts:15
+msgid ""
+"Managed a fullstack (web + native iOS with services on AWS) foot scanning services\n"
+"to create 3d printable foot orthosis as well as other deprecated projects and connexe work"
+msgstr ""
+"Managed a fullstack (web + native iOS with services on AWS) foot scanning services\n"
+"to create 3d printable foot orthosis as well as other deprecated projects and connexe work"
+
 #. js-lingui-explicit-id
 #: src/Components/About.tsx:29
 msgid "About.Features1"
@@ -78,10 +122,13 @@ msgstr "Manually styled (Sass, css, scss, who knows?)"
 msgid "About.Features2"
 msgstr "Minimal usage of packages (if any, I guess time will tell)"
 
-#. js-lingui-explicit-id
-#: src/Components/About.tsx:58
-msgid "About.Additionnal.Description"
-msgstr "About.Additionnal.Description"
+#: src/Data/SoftwareExperience.ts:13
+msgid "October 2021"
+msgstr "October 2021"
+
+#: src/Data/SoftwareExperience.ts:17
+msgid "Software Developper"
+msgstr "Software Developper"
 
 #. js-lingui-explicit-id
 #: src/Components/About.tsx:12

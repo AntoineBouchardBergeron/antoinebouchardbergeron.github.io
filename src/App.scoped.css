@@ -11,6 +11,9 @@
 
 .content {
   max-width: 1080px;
+  width: 1080px;
+  min-width: 500px;
+  flex-grow: 1;
 }
 
 button {

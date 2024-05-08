@@ -17,7 +17,7 @@ const About = () => {
           the best approach way too late) copy-paste. I never truly deepened my
           knowledge of the web functionnal programming approach. Since I now
           have the opportunity to find work, I got inspired by my good friend
-          Pascal Laprade to make my own Curriculum vitea as well as use this as
+          <a href="https://pascallaprade.com">Pascal Laprade</a> to make my own Curriculum vitea as well as use this as
           a learning experience.
         </Trans>
       </p>

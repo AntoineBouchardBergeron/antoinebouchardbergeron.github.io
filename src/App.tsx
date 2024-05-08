@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./App.scoped.css";
 import Header from "./Components/Header";
 import useTheme from "./Hooks/Theme";

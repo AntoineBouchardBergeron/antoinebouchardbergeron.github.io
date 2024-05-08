@@ -14,44 +14,75 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. js-lingui-explicit-id
-#: src/Components/Header.tsx:33
+#: src/Components/Header.tsx:38
 msgid "Software"
 msgstr "Logiciel"
 
 #. js-lingui-explicit-id
-#: src/Components/Header.tsx:38
+#: src/Components/Header.tsx:43
 msgid "Mecanic"
 msgstr "Mécanique"
 
 #. js-lingui-explicit-id
-#: src/Components/Header.tsx:43
+#: src/Components/Header.tsx:48
 msgid "Music"
 msgstr "Musique"
 
 #. js-lingui-explicit-id
-#: src/Components/Header.tsx:48
+#: src/Components/Header.tsx:53
 msgid "Contact"
 msgstr "Contact"
+
+#: src/Data/SoftwareExperience.ts:30
+msgid "August 2021"
+msgstr "Août 2021"
+
+#: src/Components/Contact.tsx:7
+#: src/Components/Mecanic.tsx:7
+#: src/Components/Music.tsx:7
+#: src/Components/Software.tsx:7
+msgid "Coming soon"
+msgstr "En écriture"
 
 #. js-lingui-explicit-id
 #: src/Components/About.tsx:48
 msgid "About.Learning.Description"
 msgstr "Ce faisant, j'ai consolidé mes connaissances de programmation fonctionnel en front-end (html? htmlx?, css). J'ai enfin appris également sur le procédé d'achat de domaine, d'hébergement sans passer par un des géants (quoique, github, c'est rendu plutôt gros non?)"
 
+#: src/Data/SoftwareExperience.ts:8
+msgid "FullStack"
+msgstr "FullStack"
+
 #. js-lingui-explicit-id
 #: src/Components/About.tsx:15
 msgid "About.WhyAnswer"
-msgstr "J'ai toujours été le genre a utiliser des raccourcis et (Je réalise maintenant que c'était une piètre approche) copier-coller. Je n'ai donc jamais approfondi mes connaissances de l'écriture du code fonctionnel. Depuis que j'ai l'occassion de retrouver du travail, j'ai été inspiré par mon bon ami Pascal Laprade à réécrire mon CV sous forme de web app, ce qui devrait me prouver être un bel apprentissage."
+msgstr "J'ai toujours été le genre a utiliser des raccourcis et (Je réalise maintenant que c'était une piètre approche) copier-coller. Je n'ai donc jamais approfondi mes connaissances de l'écriture du code fonctionnel. Depuis que j'ai l'occassion de retrouver du travail, j'ai été inspiré par mon bon ami <0>Pascal Laprade</0> à réécrire mon CV sous forme de web app, ce qui devrait me prouver être un bel apprentissage."
 
 #. js-lingui-explicit-id
 #: src/Components/About.tsx:39
 msgid "About.Features3"
 msgstr "Inspectable (Pour trouver tout mes secrets!)"
 
+#: src/Data/SoftwareExperience.ts:29
+msgid "January 2019"
+msgstr "Janvier 2019"
+
+#: src/Data/SoftwareExperience.ts:14
+msgid "January 2024"
+msgstr "Janvier 2024"
+
 #. js-lingui-explicit-id
 #: src/Components/About.tsx:25
 msgid "Key"
-msgstr "Inspectable (Pour trouver tout mes secrets!)"
+msgstr "Éléments Clés"
+
+#: src/Data/SoftwareExperience.ts:32
+msgid "Lead Software Developper"
+msgstr "Développeur Logiciel Principal"
+
+#: src/Data/SoftwareExperience.ts:31
+msgid "Lead the developpement for the prototyping of an AR app for luxury shopping"
+msgstr "Gérer le développement du prototypage d'un application en réalité virtuel pour de la vente d'accessoire de luxe"
 
 #. js-lingui-explicit-id
 #: src/Components/About.tsx:45
@@ -63,6 +94,12 @@ msgstr "Apprentissages"
 msgid "About.Intro"
 msgstr "Un homme simple, avec des intérets, des passes-temps et des connaissances écrit son Curriculum vitea en format web utilisant React, Typescript conservant un style fonctionnel"
 
+#: src/Data/SoftwareExperience.ts:15
+msgid ""
+"Managed a fullstack (web + native iOS with services on AWS) foot scanning services\n"
+"to create 3d printable foot orthosis as well as other deprecated projects and connexe work"
+msgstr ""
+
 #. js-lingui-explicit-id
 #: src/Components/About.tsx:29
 msgid "About.Features1"
@@ -72,6 +109,14 @@ msgstr "Stylé manuellement (Sass, css, scss, qui sait?)"
 #: src/Components/About.tsx:34
 msgid "About.Features2"
 msgstr "Utilisation minimal de librairie/package (S'il y en a tout court (excepté React, on s'entend))"
+
+#: src/Data/SoftwareExperience.ts:13
+msgid "October 2021"
+msgstr ""
+
+#: src/Data/SoftwareExperience.ts:17
+msgid "Software Developper"
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/Components/About.tsx:12

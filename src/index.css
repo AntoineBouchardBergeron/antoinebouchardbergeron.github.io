@@ -16,15 +16,36 @@ code {
 }
 
 :root {
-  --background: #E9EBEF;
+  --background: #fdfdfd;
   --text-primary: #090B0F;
   --text-secondary: #4368d7;
   --accent: #B31244;
 }
 
 [data-theme='dark'] {
-  --background: #090B0F;
-  --text-primary: #E9EBEF;
-  --text-secondary: #4368d7;
-  --accent: #B31244;
+  --background: #1e1e1e;
+  --text-primary: #fdfdfd;
+  --text-secondary: #3688e8;
+  --accent: #c86363;
 }
+
+h1 {
+  align-items: flex-start;
+  font-weight: 400;
+  a {
+      color: var(--text-primary);
+      text-decoration: none;
+  };
+}
+
+h3 {
+  align-items: flex-start;
+  font-weight: 300;
+  font-style: italic;
+}
+
+a {
+  padding: 0.3rem;
+  color: var(--text-secondary);
+  text-decoration: none;
+};
