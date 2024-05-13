@@ -4,10 +4,11 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   font-optical-sizing: auto;
-  font-weight: 300;
+  font-weight: var(--font-weigth);
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background);
 }
 
 code {
@@ -20,6 +21,7 @@ code {
   --text-primary: #090B0F;
   --text-secondary: #4368d7;
   --accent: #B31244;
+  --font-weigth: 400;
 }
 
 [data-theme='dark'] {
@@ -27,11 +29,12 @@ code {
   --text-primary: #fdfdfd;
   --text-secondary: #3688e8;
   --accent: #c86363;
+  --font-weigth: 300;
 }
 
 h1 {
   align-items: flex-start;
-  font-weight: 400;
+  font-weight: 500;
   a {
       color: var(--text-primary);
       text-decoration: none;
@@ -40,7 +43,7 @@ h1 {
 
 h3 {
   align-items: flex-start;
-  font-weight: 300;
+  font-weight: 400;
   font-style: italic;
 }
 
@@ -49,3 +52,11 @@ a {
   color: var(--text-secondary);
   text-decoration: none;
 };
+ 
+p {
+  font-weight: var(--font-weigth);
+}
+
+span {
+  font-weight:  var(--font-weigth);
+}

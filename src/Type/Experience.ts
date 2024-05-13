@@ -49,6 +49,7 @@ const enum architecture {
   "Machining Code",
   "DevOps",
   "Game",
+  "Standalone Service"
 }
 
 export type Architecture = keyof typeof architecture;
@@ -57,5 +58,7 @@ const enum frameworks {
   "React",
   "Dotnet Core",
   "Unity",
+  "SwiftUI",
+  "UIkit"
 }
 export type Frameworks = keyof typeof frameworks;

@@ -33,16 +33,56 @@ msgstr "Musique"
 msgid "Contact"
 msgstr "Contact"
 
-#: src/Data/SoftwareExperience.ts:30
+#: src/Components/ExperienceDetail.tsx:23
+#: src/Components/Software.tsx:15
+#: src/Components/Software.tsx:16
+#~ msgid "{0}"
+#~ msgstr "a"
+
+#: src/Data/SoftwareExperience.ts:56
+msgid "3D Printer park automation"
+msgstr ""
+
+#: src/Data/SoftwareExperience.ts:49
+msgid "3D Viewer web engine adaptation"
+msgstr ""
+
+#: src/Data/SoftwareExperience.ts:97
 msgid "August 2021"
 msgstr "Août 2021"
+
+#: src/Data/SoftwareExperience.ts:19
+msgid "Automation Pipeline"
+msgstr ""
 
 #: src/Components/Contact.tsx:7
 #: src/Components/Mecanic.tsx:7
 #: src/Components/Music.tsx:7
-#: src/Components/Software.tsx:7
 msgid "Coming soon"
 msgstr "En écriture"
+
+#: src/Data/SoftwareExperience.ts:91
+msgid "Creation of custom shader to create different effects, such as portals, water, and more."
+msgstr ""
+
+#: src/Data/SoftwareExperience.ts:20
+#: src/Data/SoftwareExperience.ts:27
+#: src/Data/SoftwareExperience.ts:43
+#: src/Data/SoftwareExperience.ts:50
+#: src/Data/SoftwareExperience.ts:57
+#: src/Data/SoftwareExperience.ts:64
+msgid "Custom order service system for orthotic sole"
+msgstr ""
+
+#: src/Data/SoftwareExperience.ts:11
+msgid ""
+"Custom order service system for orthotic sole order. \n"
+"Used multiple services hosted on AWS, mainly,"
+msgstr ""
+
+#: src/Data/SoftwareExperience.ts:11
+#~ msgid "Custom order service system for orthotic sole order. Used multiple"
+#~ msgstr ""
 
 #. js-lingui-explicit-id
 #: src/Components/About.tsx:48
@@ -50,24 +90,43 @@ msgid "About.Learning.Description"
 msgstr "Ce faisant, j'ai consolidé mes connaissances de programmation fonctionnel en front-end (html? htmlx?, css). J'ai enfin appris également sur le procédé d'achat de domaine, d'hébergement sans passer par un des géants (quoique, github, c'est rendu plutôt gros non?)"
 
 #: src/Data/SoftwareExperience.ts:8
-msgid "FullStack"
-msgstr "FullStack"
+#~ msgid "FullStack"
+#~ msgstr "FullStack"
 
 #. js-lingui-explicit-id
 #: src/Components/About.tsx:15
 msgid "About.WhyAnswer"
 msgstr "J'ai toujours été le genre a utiliser des raccourcis et (Je réalise maintenant que c'était une piètre approche) copier-coller. Je n'ai donc jamais approfondi mes connaissances de l'écriture du code fonctionnel. Depuis que j'ai l'occassion de retrouver du travail, j'ai été inspiré par mon bon ami <0>Pascal Laprade</0> à réécrire mon CV sous forme de web app, ce qui devrait me prouver être un bel apprentissage."
 
+#: src/Data/SoftwareExperience.ts:34
+msgid ""
+"I was tasked with my collegues to build an app that would scan feet of our client's \n"
+"patient. The data would be safely sent to the Backend service built alongside the Order System Management\n"
+"(see above). We also added the possibility for our clients to complete the order right after taking the scans."
+msgstr ""
+
 #. js-lingui-explicit-id
 #: src/Components/About.tsx:39
 msgid "About.Features3"
 msgstr "Inspectable (Pour trouver tout mes secrets!)"
 
-#: src/Data/SoftwareExperience.ts:29
+#: src/Data/SoftwareExperience.ts:83
+msgid "iOS App"
+msgstr "App iOS"
+
+#: src/Data/SoftwareExperience.ts:84
+msgid "iOS Ar app for shopping"
+msgstr "App iOS en réalité augmenté de magasinage"
+
+#: src/Data/SoftwareExperience.ts:33
+msgid "iOS Mobile app"
+msgstr ""
+
+#: src/Data/SoftwareExperience.ts:96
 msgid "January 2019"
 msgstr "Janvier 2019"
 
-#: src/Data/SoftwareExperience.ts:14
+#: src/Data/SoftwareExperience.ts:71
 msgid "January 2024"
 msgstr "Janvier 2024"
 
@@ -76,11 +135,11 @@ msgstr "Janvier 2024"
 msgid "Key"
 msgstr "Éléments Clés"
 
-#: src/Data/SoftwareExperience.ts:32
+#: src/Data/SoftwareExperience.ts:99
 msgid "Lead Software Developper"
 msgstr "Développeur Logiciel Principal"
 
-#: src/Data/SoftwareExperience.ts:31
+#: src/Data/SoftwareExperience.ts:98
 msgid "Lead the developpement for the prototyping of an AR app for luxury shopping"
 msgstr "Gérer le développement du prototypage d'un application en réalité virtuel pour de la vente d'accessoire de luxe"
 
@@ -94,7 +153,7 @@ msgstr "Apprentissages"
 msgid "About.Intro"
 msgstr "Un homme simple, avec des intérets, des passes-temps et des connaissances écrit son Curriculum vitea en format web utilisant React, Typescript conservant un style fonctionnel"
 
-#: src/Data/SoftwareExperience.ts:15
+#: src/Data/SoftwareExperience.ts:72
 msgid ""
 "Managed a fullstack (web + native iOS with services on AWS) foot scanning services\n"
 "to create 3d printable foot orthosis as well as other deprecated projects and connexe work"
@@ -105,18 +164,42 @@ msgstr ""
 msgid "About.Features1"
 msgstr "Stylé manuellement (Sass, css, scss, qui sait?)"
 
+#: src/Data/SoftwareExperience.ts:63
+msgid "Milling GCode generator"
+msgstr ""
+
 #. js-lingui-explicit-id
 #: src/Components/About.tsx:34
 msgid "About.Features2"
 msgstr "Utilisation minimal de librairie/package (S'il y en a tout court (excepté React, on s'entend))"
 
-#: src/Data/SoftwareExperience.ts:13
+#: src/Data/SoftwareExperience.ts:70
 msgid "October 2021"
 msgstr ""
 
-#: src/Data/SoftwareExperience.ts:17
-msgid "Software Developper"
+#: src/Data/SoftwareExperience.ts:8
+#~ msgid "Order Service"
+#~ msgstr ""
+
+#: src/Data/SoftwareExperience.ts:10
+msgid "Order system management"
 msgstr ""
+
+#: src/Data/SoftwareExperience.ts:26
+msgid "Project Management"
+msgstr ""
+
+#: src/Data/SoftwareExperience.ts:42
+msgid "Rhino-Grasshopper Automation"
+msgstr ""
+
+#: src/Data/SoftwareExperience.ts:90
+msgid "Shaders"
+msgstr ""
+
+#: src/Data/SoftwareExperience.ts:74
+msgid "Software Developper"
+msgstr "Développeur"
 
 #. js-lingui-explicit-id
 #: src/Components/About.tsx:12
