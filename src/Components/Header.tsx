@@ -34,6 +34,11 @@ const Header = (props: Props) => {
         </h1>
         <ul className="navigation">
           <li className="navigation">
+            <Link to={""}>
+              <Trans id="Home">Home</Trans>
+            </Link>
+          </li>
+          <li className="navigation">
             <Link to={SoftwarePath}>
               <Trans id="Software">Software Eng.</Trans>
             </Link>
