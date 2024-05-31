@@ -29,7 +29,7 @@ type SoftwareItem = ExperienceItem & {
   framework: Array<Frameworks>;
 };
 
-const enum languages {
+export const enum languages {
   "C#",
   "C++",
   "python",
@@ -41,7 +41,7 @@ const enum languages {
 
 export type Languages = keyof typeof languages;
 
-const enum architecture {
+export const enum architecture {
   "FullStack",
   "Webdev",
   "Mobile Native",
@@ -54,7 +54,7 @@ const enum architecture {
 
 export type Architecture = keyof typeof architecture;
 
-const enum frameworks {
+export const enum frameworks {
   "React",
   "Dotnet Core",
   "Unity",

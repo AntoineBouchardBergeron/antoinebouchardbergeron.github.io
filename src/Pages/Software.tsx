@@ -1,6 +1,6 @@
 import { useLingui } from "@lingui/react";
 import softwareExperiences from "../Data/SoftwareExperience";
-import ExperienceDetail from "./ExperienceDetail";
+import ExperienceDetail from "../Components/ExperienceDetail";
 import { Fragment } from "react/jsx-runtime";
 
 export const SoftwarePath = "/Software";
@@ -9,7 +9,7 @@ const Software = () => {
   const i18n = useLingui()
 
   return (
-    <div style={{ padding: "0.3rem" }}>
+    <>
       {softwareExperiences.map((experience) => {
         const exp = experience(i18n.i18n)
         return <Fragment>
@@ -46,7 +46,7 @@ const Software = () => {
           ))}
         </Fragment>
       })}
-    </div>
+    </>
   );
 };
 

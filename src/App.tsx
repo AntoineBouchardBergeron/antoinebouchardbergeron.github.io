@@ -2,11 +2,11 @@ import React from "react";
 import "./App.scoped.css";
 import Header from "./Components/Header";
 import useTheme from "./Hooks/Theme";
-import About from "./Components/About";
-import Software, { SoftwarePath } from "./Components/Software";
-import Mecanic, { MecanicPath } from "./Components/Mecanic";
-import Music, { MusicPath } from "./Components/Music";
-import Contact, { ContactPath } from "./Components/Contact";
+import About from "./Pages/About";
+import Software, { SoftwarePath } from "./Pages/Software";
+import Mecanic, { MecanicPath } from "./Pages/Mecanic";
+import Music, { MusicPath } from "./Pages/Music";
+import Contact, { ContactPath } from "./Pages/Contact";
 import { Route, Routes } from "react-router-dom";
 
 function App() {

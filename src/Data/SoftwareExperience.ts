@@ -9,8 +9,7 @@ const podform3dExperience = (i18n: I18n) => (
       {
         title: t(i18n)`Order system management`,
         description: t(i18n)`Custom order service system for orthotic sole order. 
-        Used multiple services hosted on AWS, mainly, 
-        `,
+        Used multiple services hosted on AWS, mainly, S3, EC2, AppRunner, Amplify, RDS`,
         architecture: ["FullStack"],
         framework: ["React", "Dotnet Core"],
         languages: ["C#", "TypeScript"],
@@ -24,7 +23,7 @@ const podform3dExperience = (i18n: I18n) => (
       },
       {
         title: t(i18n)`Project Management`,
-        description: t(i18n)`Custom order service system for orthotic sole`,
+        description: t(i18n)`We used aa`,
         architecture: ["FullStack"],
         framework: ["React", "Dotnet Core"],
         languages: ["C#", "TypeScript"],
@@ -96,7 +95,7 @@ const lode3DExperience = (i18n: I18n) => ({
   start: t(i18n)`January 2019`,
   end: t(i18n)`August 2021`,
   summary: t(i18n)`Lead the developpement for the prototyping of an AR app for luxury shopping`,
-  title: t(i18n)`Lead Software Developper`,
+  title: t(i18n)`Software Developper`,
   workplace: "Lode"
 }) as SoftwareExperience
 

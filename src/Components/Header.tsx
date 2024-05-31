@@ -5,10 +5,10 @@ import "./Header.css";
 import ToggleButton from "./ToggleButton";
 import { Trans, useLingui } from "@lingui/react";
 import { Link } from "react-router-dom";
-import { ContactPath } from "./Contact";
-import { MecanicPath } from "./Mecanic";
-import { SoftwarePath } from "./Software";
-import { MusicPath } from "./Music";
+import { ContactPath } from "../Pages/Contact";
+import { MecanicPath } from "../Pages/Mecanic";
+import { SoftwarePath } from "../Pages/Software";
+import { MusicPath } from "../Pages/Music";
 
 type Props = {
   applyTheme: (newTheme: ThemeKey) => void;
