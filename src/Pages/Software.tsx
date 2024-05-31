@@ -2,24 +2,24 @@ import { useLingui } from "@lingui/react";
 import softwareExperiences from "../Data/SoftwareExperience";
 import ExperienceDetail from "../Components/ExperienceDetail";
 import { Fragment } from "react/jsx-runtime";
+import Collapsible from "../Components/Collapsible";
 
 export const SoftwarePath = "/Software";
 
 const Software = () => {
-  const i18n = useLingui()
+  const i18n = useLingui();
 
   return (
     <>
       {softwareExperiences.map((experience) => {
-        const exp = experience(i18n.i18n)
-        return <Fragment>
-          <h3>
-            {exp.title}{" - "}
-            {exp.workplace}
-          </h3>
-          <span />
-          {exp.items.map((e, i) => (
-            <>
+        const exp = experience(i18n.i18n);
+        return (
+          <Collapsible
+            isHeader={true}
+            mainAttribute={exp.workplace}
+            title={exp.title}
+          >
+            {exp.items.map((e, i) => (
               <ExperienceDetail key={i} item={e} mainAttribute={e.languages[0]}>
                 <span>
                   {e.architecture.map((item, i) => (
@@ -41,10 +41,9 @@ const Software = () => {
                   ))}
                 </span>
               </ExperienceDetail>
-              {i < exp.items.length - 1 && <br />}
-            </>
-          ))}
-        </Fragment>
+            ))}
+          </Collapsible>
+        );
       })}
     </>
   );

@@ -2,6 +2,8 @@ import React from "react";
 
 import { Trans } from "@lingui/macro"
 
+export const AboutPath = "/"
+
 const About = () => {
   return (
     <>

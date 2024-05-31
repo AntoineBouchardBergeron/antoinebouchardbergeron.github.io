@@ -10,6 +10,10 @@ export type SchoolExperience = Experience & {
   projects: Array<ExperienceItem>;
 };
 
+export type MusicExperience = Experience & {
+  projects: Array<ExperienceItem>;
+};
+
 type Experience = {
   title: String;
   workplace: String;
