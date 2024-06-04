@@ -30,7 +30,7 @@ const SoftwareExperienceComponent = (props: SoftwareExperienceProps) => {
           key={index}
           ref={DropDownRef}
           isHeader={true}
-          mainAttribute={exp.workplace}
+          mainAttribute={exp.workplace + " (" + exp.start + " - " + exp.end + ")"}
           summary={exp.summary}
           title={exp.title}
           height={height}
@@ -43,23 +43,37 @@ const SoftwareExperienceComponent = (props: SoftwareExperienceProps) => {
               addHeight={handleChildHeight}
             >
               <span>
-                {e.architecture.map((item, i) => (
-                  <em key={i}>
-                    {item + (i < e.architecture.length - 1 ? " - " : "")}
-                  </em>
-                ))}
-                <br />
-                {e.languages.map((item, i) => (
-                  <em key={i + 100}>
-                    {item + (i !== e.languages.length - 1 ? " - " : "")}
-                  </em>
-                ))}
-                <br />
-                {e.framework.map((item, i) => (
-                  <em key={i + 200}>
-                    {item + (i !== e.framework.length - 1 ? " - " : "")}
-                  </em>
-                ))}
+                {e.architecture.length > 0 &&
+                  <>
+                    {
+                      e.architecture.map((item, i) => (
+                        <em key={i}>
+                          {item + (i < e.architecture.length - 1 ? " - " : "")}
+                        </em>
+                      ))
+                    }
+                    < br />
+                  </>
+                }
+                {e.languages.length > 0 &&
+                  <>
+                    {e.languages.map((item, i) => (
+                      <em key={i + 100}>
+                        {item + (i !== e.languages.length - 1 ? " - " : "")}
+                      </em>
+                    ))}
+                    <br />
+                  </>
+                }
+                {e.framework.length > 0 &&
+                  <>
+                    {e.framework.map((item, i) => (
+                      <em key={i + 200}>
+                        {item + (i !== e.framework.length - 1 ? " - " : "")}
+                      </em>
+                    ))}
+                  </>
+                }
               </span>
             </ExperienceDetail>
           ))}

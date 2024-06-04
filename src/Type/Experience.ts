@@ -35,13 +35,15 @@ type SoftwareItem = ExperienceItem & {
 };
 
 export const enum languages {
+  "Bash",
   "C#",
   "C++",
-  "python",
-  "JavaScript",
-  "TypeScript",
-  "Swift",
   "HSLS",
+  "JavaScript",
+  "Python",
+  "SQL",
+  "Swift",
+  "TypeScript",
   "VB",
   "VBS"
 }
@@ -53,7 +55,7 @@ export const enum architecture {
   "Web - Front-end",
   "Mobile Native",
   "3D",
-  "Machining Code",
+  "OctoPi",
   "DevOps",
   "Game",
   "Standalone Service"
@@ -67,7 +69,10 @@ export const enum frameworks {
   "Unity",
   "SwiftUI",
   "UIkit",
+  "GitHub",
   "OfficeSuite",
-  "E3"
+  "E3",
+  "Rhino",
+  "Grasshopper"
 }
 export type Frameworks = keyof typeof frameworks;

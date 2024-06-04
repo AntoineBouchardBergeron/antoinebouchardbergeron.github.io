@@ -1,6 +1,6 @@
 import { Trans } from "@lingui/macro"
 
-export const MecanicPath = "Mecanic"
+export const MecanicPath = "/Mecanic"
 
 const Mecanic = () => {
     return <>

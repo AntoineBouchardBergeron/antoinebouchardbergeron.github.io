@@ -21,10 +21,18 @@
 
 .caption {
   font-size: small;
+  color: var(--caption)
+}
+
+.summary {
+  font-size: small;
+  color: var(--accent);
+  align-content: center;
+  height: 100%;
 }
 
 button {
-  border: none;
+  border: 0cm;
   transition: all ease-out .3s;
   color: var(--text-primary);
   background-color: var(--background);

@@ -6,7 +6,7 @@ const Coldsun = (i18n: I18n) =>
   ({
     projects: [
       {
-        title: t(i18n)`iOS App`,
+        title: t(i18n)`Omiom du rock 2015`,
         description: t(i18n)`iOS Ar app for shopping`,
       },
       {

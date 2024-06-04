@@ -24,3 +24,11 @@ li.navigation {
     display: inline-flex;
     list-style: none;
 }
+
+li.navigation-active {
+    display: inline-flex;
+    list-style: none;
+    border-bottom: var(--accent);
+    border-bottom-style: outset;
+    transition: all linear 0.1s;
+}

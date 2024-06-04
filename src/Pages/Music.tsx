@@ -1,6 +1,6 @@
 import { Trans } from "@lingui/macro"
 
-export const MusicPath = "Music"
+export const MusicPath = "/Music"
 
 const Music = () => {
     return <div style={{ alignItems: "center", justifyContent: "center", width: "100%", overflow: "hidden" }}>

@@ -1,10 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Fragment } from "react/jsx-runtime";
 import { ThemeKey, ThemeKeys } from "../Hooks/Theme";
 import "./Header.css";
 import ToggleButton from "./ToggleButton";
 import { Trans, useLingui } from "@lingui/react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { ContactPath } from "../Pages/Contact";
 import { MecanicPath } from "../Pages/Mecanic";
 import { SoftwarePath } from "../Pages/Software";
@@ -17,6 +17,7 @@ type Props = {
 
 const Header = (props: Props) => {
   const { i18n } = useLingui();
+  const location = useLocation()
   const handleThemeClick = (value: ThemeKey) => {
     props.applyTheme(value);
   };
@@ -26,6 +27,10 @@ const Header = (props: Props) => {
     window.localStorage.setItem("langage", value);
   };
 
+  useEffect(() => {
+    console.log(location)
+  })
+
   return (
     <header className="header">
       <div>
@@ -33,27 +38,27 @@ const Header = (props: Props) => {
           <a href="/">Antoine Bouchard-Bergeron</a>
         </h1>
         <ul className="navigation">
-          <li className="navigation">
+          <li className={location.pathname === "/" ? "navigation-active" : "navigation"}>
             <Link to={""}>
               <Trans id="Home">Home</Trans>
             </Link>
           </li>
-          <li className="navigation">
+          <li className={location.pathname === SoftwarePath ? "navigation-active" : "navigation"}>
             <Link to={SoftwarePath}>
               <Trans id="Software">Software Eng.</Trans>
             </Link>
           </li>
-          <li className="navigation">
+          <li className={location.pathname === MecanicPath ? "navigation-active" : "navigation"}>
             <Link to={MecanicPath}>
               <Trans id="Mecanic">Mecanical Eng.</Trans>
             </Link>
           </li>
-          <li className="navigation">
+          <li className={location.pathname === MusicPath ? "navigation-active" : "navigation"}>
             <Link to={MusicPath}>
               <Trans id="Music">Music</Trans>
             </Link>
           </li>
-          <li className="navigation">
+          <li className={location.pathname === ContactPath ? "navigation-active" : "navigation"}>
             <Link to={ContactPath}>
               <Trans id="Contact">Contact</Trans>
             </Link>

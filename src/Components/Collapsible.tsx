@@ -26,10 +26,6 @@ const Collapsible = forwardRef<any, Props>((props, parentRef) => {
     }
   }, [contentHeight, contentRef.current?.scrollHeight])
 
-  useEffect(() => {
-    console.log(contentHeight)
-  })
-
   const handleDisplayDetail = () => {
     setDisplayDetail((b) => !b);
     props.onClick?.(displayDetail)
@@ -47,9 +43,13 @@ const Collapsible = forwardRef<any, Props>((props, parentRef) => {
           {props.title}
           {props.mainAttribute ? " - " + props.mainAttribute : ""}
         </span>
-        {props.summary && <div style={{ fontSize: "small", paddingLeft: "2rem", alignContent: "center", height: "100%" }}>
-          {props.summary}
-        </div>}
+        {props.summary &&
+          <div style={{ paddingLeft: "2rem" }}>
+            <div className="summary">
+              {props.summary}
+            </div>
+          </div>
+        }
       </div>
 
       <div ref={parentRef}>
@@ -59,12 +59,12 @@ const Collapsible = forwardRef<any, Props>((props, parentRef) => {
             contentRef.current && displayDetail
               ? {
                 height: contentHeight + (props.height ?? 0) + "px",
-                transition: "ease-in-out 0.3s",
+                transition: "height ease-in-out 0.3s",
                 overflow: "hidden",
               }
               : {
                 height: "0px",
-                transition: "ease-in-out 0.3s",
+                transition: "height ease-in-out 0.3s",
                 overflow: "hidden"
               }
           }

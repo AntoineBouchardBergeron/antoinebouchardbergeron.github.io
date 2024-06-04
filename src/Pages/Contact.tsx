@@ -1,6 +1,6 @@
 import { Trans } from "@lingui/macro"
 
-export const ContactPath = "Contact"
+export const ContactPath = "/Contact"
 
 const Contact = () => {
     return <>

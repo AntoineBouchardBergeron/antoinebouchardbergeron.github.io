@@ -32,9 +32,8 @@ const ExperienceDetail = (props: Props) => {
       onClick={handleClick}
     >
       <div style={{ paddingLeft: "3rem" }}>
-        <p>{props.item.description}</p>
+        <div className="summary">{props.item.description}</div>
         {props.children}
-        <br />
       </div>
     </Collapsible>
   );
