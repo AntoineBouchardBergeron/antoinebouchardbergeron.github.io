@@ -9,7 +9,6 @@ import { ContactPath } from "../Pages/Contact";
 import { MecanicPath } from "../Pages/Mecanic";
 import { SoftwarePath } from "../Pages/Software";
 import { MusicPath } from "../Pages/Music";
-import { ProjectsPath } from "../Pages/Projects";
 
 type Props = {
   applyTheme: (newTheme: ThemeKey) => void;
@@ -52,11 +51,6 @@ const Header = (props: Props) => {
           <li className="navigation">
             <Link to={MusicPath}>
               <Trans id="Music">Music</Trans>
-            </Link>
-          </li>
-          <li className="navigation">
-            <Link to={ProjectsPath}>
-              <Trans id="Projects">Projects</Trans>
             </Link>
           </li>
           <li className="navigation">

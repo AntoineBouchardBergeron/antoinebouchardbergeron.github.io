@@ -7,7 +7,7 @@ export enum Theme {
 
 export type ThemeKey = keyof typeof Theme;
 export const ThemeKeys = (
-  Object.values(Theme) as Array<keyof typeof Theme>
+  Object.values(Theme) as Array<ThemeKey>
 ).filter((v) => isNaN(Number(v)));
 
 const useTheme = () => {

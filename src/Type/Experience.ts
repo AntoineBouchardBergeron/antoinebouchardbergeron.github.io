@@ -19,7 +19,7 @@ type Experience = {
   workplace: String;
   start: String;
   end: String;
-  summary: String;
+  summary: string;
 };
 
 export type ExperienceItem = {
@@ -31,6 +31,7 @@ type SoftwareItem = ExperienceItem & {
   languages: Array<Languages>;
   architecture: Array<Architecture>;
   framework: Array<Frameworks>;
+  url?: string
 };
 
 export const enum languages {
@@ -40,14 +41,16 @@ export const enum languages {
   "JavaScript",
   "TypeScript",
   "Swift",
-  "HSLS"
+  "HSLS",
+  "VB",
+  "VBS"
 }
 
 export type Languages = keyof typeof languages;
 
 export const enum architecture {
   "FullStack",
-  "Webdev",
+  "Web - Front-end",
   "Mobile Native",
   "3D",
   "Machining Code",
@@ -63,6 +66,8 @@ export const enum frameworks {
   "Dotnet Core",
   "Unity",
   "SwiftUI",
-  "UIkit"
+  "UIkit",
+  "OfficeSuite",
+  "E3"
 }
 export type Frameworks = keyof typeof frameworks;

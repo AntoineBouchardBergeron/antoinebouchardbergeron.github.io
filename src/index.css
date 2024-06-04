@@ -18,14 +18,16 @@ code {
 
 :root {
   --background: #fdfdfd;
+  --caption: #191919;
   --text-primary: #090B0F;
   --text-secondary: #4368d7;
   --accent: #B31244;
-  --font-weigth: 400;
+  --font-weigth: 500;
 }
 
 [data-theme='dark'] {
   --background: #1e1e1e;
+  --caption: #dddddd;
   --text-primary: #fdfdfd;
   --text-secondary: #3688e8;
   --accent: #c86363;
@@ -35,10 +37,13 @@ code {
 h1 {
   align-items: flex-start;
   font-weight: 500;
+
   a {
-      color: var(--text-primary);
-      text-decoration: none;
-  };
+    color: var(--text-primary);
+    text-decoration: none;
+  }
+
+  ;
 }
 
 h3 {
@@ -51,12 +56,15 @@ a {
   padding: 0.3rem;
   color: var(--text-secondary);
   text-decoration: none;
-};
- 
+}
+
+;
+
 p {
   font-weight: var(--font-weigth);
+  margin: auto;
 }
 
 span {
-  font-weight:  var(--font-weigth);
+  font-weight: var(--font-weigth);
 }

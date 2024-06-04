@@ -15,21 +15,33 @@ msgstr ""
 
 #. js-lingui-explicit-id
 #: src/Components/Header.tsx:38
+msgid "Home"
+msgstr ""
+
+#: src/Data/SoftwareExperience.ts:47
+#: src/Data/SoftwareExperience.ts:54
+#: src/Data/SoftwareExperience.ts:61
+#: src/Data/SoftwareExperience.ts:68
+msgid ""
+msgstr ""
+
+#. js-lingui-explicit-id
+#: src/Components/Header.tsx:43
 msgid "Software"
 msgstr "Logiciel"
 
 #. js-lingui-explicit-id
-#: src/Components/Header.tsx:43
+#: src/Components/Header.tsx:48
 msgid "Mecanic"
 msgstr "Mécanique"
 
 #. js-lingui-explicit-id
-#: src/Components/Header.tsx:48
+#: src/Components/Header.tsx:53
 msgid "Music"
 msgstr "Musique"
 
 #. js-lingui-explicit-id
-#: src/Components/Header.tsx:53
+#: src/Components/Header.tsx:58
 msgid "Contact"
 msgstr "Contact"
 
@@ -39,29 +51,51 @@ msgstr "Contact"
 #~ msgid "{0}"
 #~ msgstr "a"
 
-#: src/Data/SoftwareExperience.ts:56
+#: src/Data/SoftwareExperience.ts:60
 msgid "3D Printer park automation"
 msgstr ""
 
-#: src/Data/SoftwareExperience.ts:49
+#: src/Data/SoftwareExperience.ts:53
 msgid "3D Viewer web engine adaptation"
 msgstr ""
 
-#: src/Data/SoftwareExperience.ts:97
+#: src/Data/SoftwareExperience.ts:117
+msgid "Audit Intern"
+msgstr ""
+
+#: src/Data/MecanicExperience.ts:18
+msgid "August 2016"
+msgstr ""
+
+#: src/Data/SoftwareExperience.ts:114
+#: src/Data/SoftwareExperience.ts:133
+msgid "August 2018"
+msgstr ""
+
+#: src/Data/SoftwareExperience.ts:104
 msgid "August 2021"
 msgstr "Août 2021"
 
-#: src/Data/SoftwareExperience.ts:19
+#: src/Data/SoftwareExperience.ts:20
 msgid "Automation Pipeline"
 msgstr ""
 
-#: src/Components/Contact.tsx:7
-#: src/Components/Mecanic.tsx:7
-#: src/Components/Music.tsx:7
+#: src/Data/MusicExperience.ts:19
+msgid "Bass player and vocalist"
+msgstr ""
+
+#: src/Data/MusicExperience.ts:23
+msgid "Bass player and vocalist, that's it really.."
+msgstr ""
+
+#: src/Pages/Contact.tsx:7
+#: src/Pages/Mecanic.tsx:7
 msgid "Coming soon"
 msgstr "En écriture"
 
-#: src/Data/SoftwareExperience.ts:91
+#: src/Data/MecanicExperience.ts:14
+#: src/Data/MusicExperience.ts:14
+#: src/Data/SoftwareExperience.ts:98
 msgid "Creation of custom shader to create different effects, such as portals, water, and more."
 msgstr ""
 
@@ -71,110 +105,184 @@ msgstr ""
 #: src/Data/SoftwareExperience.ts:50
 #: src/Data/SoftwareExperience.ts:57
 #: src/Data/SoftwareExperience.ts:64
-msgid "Custom order service system for orthotic sole"
-msgstr ""
+#~ msgid "Custom order service system for orthotic sole"
+#~ msgstr ""
 
 #: src/Data/SoftwareExperience.ts:11
 msgid ""
 "Custom order service system for orthotic sole order. \n"
-"Used multiple services hosted on AWS, mainly,"
+"Used multiple services hosted on AWS, Amplify and then mainly, S3, EC2, AppRunner, RDS.\n"
+"This service was built as a Rest API exchanging information between the iOS app and the web service."
 msgstr ""
+
+#: src/Data/SoftwareExperience.ts:11
+#~ msgid ""
+#~ "Custom order service system for orthotic sole order. \n"
+#~ "Used multiple services hosted on AWS, mainly,"
+#~ msgstr ""
 
 #: src/Data/SoftwareExperience.ts:11
 #~ msgid "Custom order service system for orthotic sole order. Used multiple"
 #~ msgstr ""
 
+#: src/Data/SoftwareExperience.ts:115
+#: src/Data/SoftwareExperience.ts:134
+msgid "December 2018"
+msgstr ""
+
 #. js-lingui-explicit-id
-#: src/Components/About.tsx:48
+#: src/Pages/About.tsx:50
 msgid "About.Learning.Description"
 msgstr "Ce faisant, j'ai consolidé mes connaissances de programmation fonctionnel en front-end (html? htmlx?, css). J'ai enfin appris également sur le procédé d'achat de domaine, d'hébergement sans passer par un des géants (quoique, github, c'est rendu plutôt gros non?)"
+
+#: src/Data/MecanicExperience.ts:20
+msgid "Everything man"
+msgstr ""
 
 #: src/Data/SoftwareExperience.ts:8
 #~ msgid "FullStack"
 #~ msgstr "FullStack"
 
+#: src/Data/SoftwareExperience.ts:116
+#: src/Data/SoftwareExperience.ts:135
+msgid "Helped the audit team with IT based audits"
+msgstr ""
+
 #. js-lingui-explicit-id
-#: src/Components/About.tsx:15
+#: src/Pages/About.tsx:17
 msgid "About.WhyAnswer"
 msgstr "J'ai toujours été le genre a utiliser des raccourcis et (Je réalise maintenant que c'était une piètre approche) copier-coller. Je n'ai donc jamais approfondi mes connaissances de l'écriture du code fonctionnel. Depuis que j'ai l'occassion de retrouver du travail, j'ai été inspiré par mon bon ami <0>Pascal Laprade</0> à réécrire mon CV sous forme de web app, ce qui devrait me prouver être un bel apprentissage."
 
-#: src/Data/SoftwareExperience.ts:34
+#: src/Pages/Music.tsx:17
+msgid "I made this a while ago, I ripped off some chords of a song and used the same as a beat, to motivate myself to study for an exam, but I ended up playing the bass and jamming on this pretty much all night."
+msgstr ""
+
+#: src/Pages/Music.tsx:13
+msgid "I made this while at my last year of uni, it was for a class in unreal engine and this was the menu song. I recorded a two more songs and with multiple track to layer and plug and play as a beat maker loop."
+msgstr ""
+
+#: src/Data/SoftwareExperience.ts:127
+msgid "I was tasked with automating some of the repetitive tasks using VBS."
+msgstr ""
+
+#: src/Data/SoftwareExperience.ts:38
 msgid ""
 "I was tasked with my collegues to build an app that would scan feet of our client's \n"
 "patient. The data would be safely sent to the Backend service built alongside the Order System Management\n"
 "(see above). We also added the possibility for our clients to complete the order right after taking the scans."
 msgstr ""
 
+#: src/Pages/Music.tsx:9
+msgid "I wrote, recorded, mixed all of this track by myself, pretty much self taugth, if you don't count the occassionnal youtube video. I wanted to record this because I was going on a trip and I used to play this little tune to my child every day!"
+msgstr ""
+
 #. js-lingui-explicit-id
-#: src/Components/About.tsx:39
+#: src/Pages/About.tsx:41
 msgid "About.Features3"
 msgstr "Inspectable (Pour trouver tout mes secrets!)"
 
-#: src/Data/SoftwareExperience.ts:83
+#: src/Data/MecanicExperience.ts:9
+#: src/Data/MusicExperience.ts:9
+#: src/Data/SoftwareExperience.ts:88
 msgid "iOS App"
 msgstr "App iOS"
 
-#: src/Data/SoftwareExperience.ts:84
+#: src/Data/MecanicExperience.ts:10
+#: src/Data/MusicExperience.ts:10
 msgid "iOS Ar app for shopping"
 msgstr "App iOS en réalité augmenté de magasinage"
 
-#: src/Data/SoftwareExperience.ts:33
+#: src/Data/SoftwareExperience.ts:89
+msgid ""
+"iOS Ar app for shopping, moslty developped with unity, but we had an ongoing project to store\n"
+"all of the gameobjects, 3ds, textures on Aws.S3 and feed them directly into the app. While it was not the best, \n"
+"for safety reasons, approach for this kind of distribution, it worked fine for the prototype."
+msgstr ""
+
+#: src/Data/SoftwareExperience.ts:37
 msgid "iOS Mobile app"
 msgstr ""
 
-#: src/Data/SoftwareExperience.ts:96
+#: src/Data/MecanicExperience.ts:17
+msgid "January 2011"
+msgstr ""
+
+#: src/Data/SoftwareExperience.ts:103
 msgid "January 2019"
 msgstr "Janvier 2019"
 
-#: src/Data/SoftwareExperience.ts:71
+#: src/Data/SoftwareExperience.ts:75
 msgid "January 2024"
 msgstr "Janvier 2024"
 
 #. js-lingui-explicit-id
-#: src/Components/About.tsx:25
+#: src/Pages/About.tsx:27
 msgid "Key"
 msgstr "Éléments Clés"
 
 #: src/Data/SoftwareExperience.ts:99
-msgid "Lead Software Developper"
-msgstr "Développeur Logiciel Principal"
+#~ msgid "Lead Software Developper"
+#~ msgstr "Développeur Logiciel Principal"
 
-#: src/Data/SoftwareExperience.ts:98
+#: src/Data/SoftwareExperience.ts:105
 msgid "Lead the developpement for the prototyping of an AR app for luxury shopping"
 msgstr "Gérer le développement du prototypage d'un application en réalité virtuel pour de la vente d'accessoire de luxe"
 
 #. js-lingui-explicit-id
-#: src/Components/About.tsx:45
+#: src/Pages/About.tsx:47
 msgid "About.Learning"
 msgstr "Apprentissages"
 
 #. js-lingui-explicit-id
-#: src/Components/About.tsx:9
+#: src/Pages/About.tsx:11
 msgid "About.Intro"
 msgstr "Un homme simple, avec des intérets, des passes-temps et des connaissances écrit son Curriculum vitea en format web utilisant React, Typescript conservant un style fonctionnel"
 
 #: src/Data/SoftwareExperience.ts:72
+#~ msgid ""
+#~ "Managed a fullstack (web + native iOS with services on AWS) foot scanning services\n"
+#~ "to create 3d printable foot orthosis as well as other deprecated projects and connexe work"
+#~ msgstr ""
+
+#: src/Data/SoftwareExperience.ts:76
 msgid ""
-"Managed a fullstack (web + native iOS with services on AWS) foot scanning services\n"
+"Managed a fullstack foot scanning services (web + native iOS with 3D services on AWS) \n"
 "to create 3d printable foot orthosis as well as other deprecated projects and connexe work"
 msgstr ""
 
 #. js-lingui-explicit-id
-#: src/Components/About.tsx:29
+#: src/Pages/About.tsx:31
 msgid "About.Features1"
 msgstr "Stylé manuellement (Sass, css, scss, qui sait?)"
 
-#: src/Data/SoftwareExperience.ts:63
+#: src/Data/SoftwareExperience.ts:159
+msgid "May 2024"
+msgstr ""
+
+#: src/Data/SoftwareExperience.ts:67
 msgid "Milling GCode generator"
 msgstr ""
 
 #. js-lingui-explicit-id
-#: src/Components/About.tsx:34
+#: src/Pages/About.tsx:36
 msgid "About.Features2"
 msgstr "Utilisation minimal de librairie/package (S'il y en a tout court (excepté React, on s'entend))"
 
-#: src/Data/SoftwareExperience.ts:70
+#: src/Data/SoftwareExperience.ts:74
 msgid "October 2021"
+msgstr ""
+
+#: src/Data/SoftwareExperience.ts:160
+msgid "OnGoing"
+msgstr ""
+
+#: src/Data/SoftwareExperience.ts:161
+msgid "Online Custom portfolio made using react and css"
+msgstr ""
+
+#: src/Data/SoftwareExperience.ts:150
+#: src/Data/SoftwareExperience.ts:162
+msgid "Online CV"
 msgstr ""
 
 #: src/Data/SoftwareExperience.ts:8
@@ -185,23 +293,57 @@ msgstr ""
 msgid "Order system management"
 msgstr ""
 
-#: src/Data/SoftwareExperience.ts:26
+#: src/Data/SoftwareExperience.ts:29
 msgid "Project Management"
 msgstr ""
 
-#: src/Data/SoftwareExperience.ts:42
+#: src/Data/SoftwareExperience.ts:46
 msgid "Rhino-Grasshopper Automation"
 msgstr ""
 
-#: src/Data/SoftwareExperience.ts:90
+#: src/Data/MecanicExperience.ts:13
+#: src/Data/MusicExperience.ts:13
+#: src/Data/SoftwareExperience.ts:97
 msgid "Shaders"
 msgstr ""
 
-#: src/Data/SoftwareExperience.ts:74
+#: src/Data/MecanicExperience.ts:19
+msgid "So many things. Like, so many."
+msgstr ""
+
+#: src/Data/SoftwareExperience.ts:78
+#: src/Data/SoftwareExperience.ts:106
 msgid "Software Developper"
 msgstr "Développeur"
 
+#: src/Data/SoftwareExperience.ts:136
+msgid "Software Developper Intern"
+msgstr ""
+
+#: src/Data/SoftwareExperience.ts:151
+msgid ""
+"This is basically a place for me to write about me, anb publish, maybe songs that I wrote\n"
+"myself or with my band, Coldsun"
+msgstr ""
+
+#: src/Pages/Music.tsx:21
+msgid "This was recorded in coldsun drummer's basement. We have since improved the song quite a bit and mostly, are more at ease playing it. Also, you can totally hear the change to 7/4 and how incomfortable it made me while singing.<0/><1/>Vocals: JP, Antoine<2/>Guitar: JP,<3/>Bass: Antoine,<4/>Drums: Franco,<5/>Mixing: Antoine,<6/>Mastering: Antoine,<7/>Lyrics: Franco,<8/>Composition: JP, Franco, Antoine"
+msgstr ""
+
+#: src/Data/SoftwareExperience.ts:21
+msgid ""
+"We used both github action to autobuild, autotest and autodeploy on a schedule. We also\n"
+"used a queue to start different services whenever available since some computation was made on a slower machine \n"
+"and took significant time, but was used 5% of the day, which was fine."
+msgstr ""
+
+#: src/Data/SoftwareExperience.ts:30
+msgid ""
+"We used github project with its issues as a kanban tracker. We configured multiple views\n"
+"and were able to automate some of the"
+msgstr ""
+
 #. js-lingui-explicit-id
-#: src/Components/About.tsx:12
+#: src/Pages/About.tsx:14
 msgid "About.Why"
 msgstr "Pourquoi"

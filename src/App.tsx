@@ -8,7 +8,6 @@ import Mecanic, { MecanicPath } from "./Pages/Mecanic";
 import Music, { MusicPath } from "./Pages/Music";
 import Contact, { ContactPath } from "./Pages/Contact";
 import { Route, Routes } from "react-router-dom";
-import Projects, { ProjectsPath } from "./Pages/Projects";
 
 function App() {
   const { currentTheme, applyTheme } = useTheme();
@@ -22,7 +21,6 @@ function App() {
           <Route path={SoftwarePath} element={<Software />} />
           <Route path={MecanicPath} element={<Mecanic />} />
           <Route path={MusicPath} element={<Music />} />
-          <Route path={ProjectsPath} element={<Projects />} />
           <Route path={ContactPath} element={<Contact />} />
         </Routes>
       </div>

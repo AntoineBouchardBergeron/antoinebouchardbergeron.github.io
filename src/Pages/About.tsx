@@ -8,7 +8,7 @@ const About = () => {
   return (
     <>
       <span className="caption">
-        <Trans id="About.Intro">Man with interests, hobbies and knowledge writing his cv in web form using React, Typescript, and functionnal programming.</Trans>
+        <Trans id="About.Intro">Man with interests, hobbies and knowledge writing his resume in web form using React, Typescript, and functionnal programming.</Trans>
       </span>
       <h3>
         <Trans id="About.Why">Why</Trans>

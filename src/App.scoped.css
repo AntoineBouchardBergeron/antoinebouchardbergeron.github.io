@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: center;
   transition: all ease-out .3s;
-  width: 100vw;  
+  width: 100vw;
   min-width: 320px;
   background-color: var(--background);
 }
@@ -17,13 +17,16 @@
   min-width: 320px;
   align-self: center;
   flex-grow: 1;
-  overflow: hidden;
+}
+
+.caption {
+  font-size: small;
 }
 
 button {
   border: none;
+  transition: all ease-out .3s;
   color: var(--text-primary);
   background-color: var(--background);
-  transition: all ease-in-out .3s;
   padding: 5px;
 }
