@@ -39,7 +39,7 @@ const Header = (props: Props) => {
         </h1>
         <ul className="navigation">
           <li className={location.pathname === "/" ? "navigation-active" : "navigation"}>
-            <Link to={""}>
+            <Link to={"/"}>
               <Trans id="Home">Home</Trans>
             </Link>
           </li>

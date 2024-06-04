@@ -21,14 +21,22 @@ ul.navigation {
 }
 
 li.navigation {
+    margin-right: 1rem;
     display: inline-flex;
     list-style: none;
+}
+
+li.navigation :hover {
+    border-bottom: #aaaaaa;
+    border-bottom-style: outset;
+    transition: all ease 0.1s;
 }
 
 li.navigation-active {
     display: inline-flex;
     list-style: none;
+    margin-right: 1rem;
+    border-radius: "80%";
     border-bottom: var(--accent);
     border-bottom-style: outset;
-    transition: all linear 0.1s;
 }

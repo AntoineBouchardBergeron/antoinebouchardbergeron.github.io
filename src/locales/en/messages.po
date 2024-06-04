@@ -14,34 +14,27 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. js-lingui-explicit-id
-#: src/Components/Header.tsx:38
+#: src/Components/Header.tsx:43
 msgid "Home"
 msgstr "Home"
 
-#: src/Data/SoftwareExperience.ts:47
-#: src/Data/SoftwareExperience.ts:54
-#: src/Data/SoftwareExperience.ts:61
-#: src/Data/SoftwareExperience.ts:68
-msgid ""
-msgstr "/+Z5u4"
-
 #. js-lingui-explicit-id
-#: src/Components/Header.tsx:43
+#: src/Components/Header.tsx:48
 msgid "Software"
 msgstr "Software"
 
 #. js-lingui-explicit-id
-#: src/Components/Header.tsx:48
+#: src/Components/Header.tsx:53
 msgid "Mecanic"
 msgstr "Mecanic"
 
 #. js-lingui-explicit-id
-#: src/Components/Header.tsx:53
+#: src/Components/Header.tsx:58
 msgid "Music"
 msgstr "Music"
 
 #. js-lingui-explicit-id
-#: src/Components/Header.tsx:58
+#: src/Components/Header.tsx:63
 msgid "Contact"
 msgstr "Contact"
 
@@ -61,28 +54,35 @@ msgstr "Contact"
 #~ msgid "{0}"
 #~ msgstr "{0}"
 
-#: src/Data/SoftwareExperience.ts:60
+#: src/Data/SoftwareExperience.ts:64
 msgid "3D Printer park automation"
 msgstr "3D Printer park automation"
 
-#: src/Data/SoftwareExperience.ts:53
+#: src/Data/SoftwareExperience.ts:55
 msgid "3D Viewer web engine adaptation"
 msgstr "3D Viewer web engine adaptation"
 
-#: src/Data/SoftwareExperience.ts:117
+#: src/Data/SoftwareExperience.ts:184
+msgid "April 2018"
+msgstr "April 2018"
+
+#: src/Data/SoftwareExperience.ts:150
 msgid "Audit Intern"
 msgstr "Audit Intern"
+
+#: src/Data/SoftwareExperience.ts:128
+msgid "Audit testing"
+msgstr "Audit testing"
 
 #: src/Data/MecanicExperience.ts:18
 msgid "August 2016"
 msgstr "August 2016"
 
-#: src/Data/SoftwareExperience.ts:114
-#: src/Data/SoftwareExperience.ts:133
+#: src/Data/SoftwareExperience.ts:146
 msgid "August 2018"
 msgstr "August 2018"
 
-#: src/Data/SoftwareExperience.ts:104
+#: src/Data/SoftwareExperience.ts:114
 msgid "August 2021"
 msgstr "August 2021"
 
@@ -103,9 +103,13 @@ msgstr "Bass player and vocalist, that's it really.."
 msgid "Coming soon"
 msgstr "Coming soon"
 
+#: src/Data/SoftwareExperience.ts:125
+msgid "Create and execute audit testing"
+msgstr "Create and execute audit testing"
+
 #: src/Data/MecanicExperience.ts:14
 #: src/Data/MusicExperience.ts:14
-#: src/Data/SoftwareExperience.ts:98
+#: src/Data/SoftwareExperience.ts:108
 msgid "Creation of custom shader to create different effects, such as portals, water, and more."
 msgstr "Creation of custom shader to create different effects, such as portals, water, and more."
 
@@ -140,8 +144,7 @@ msgstr ""
 #~ msgid "Custom order service system for orthotic sole order. Used multiple"
 #~ msgstr "Custom order service system for orthotic sole order. Used multiple"
 
-#: src/Data/SoftwareExperience.ts:115
-#: src/Data/SoftwareExperience.ts:134
+#: src/Data/SoftwareExperience.ts:147
 msgid "December 2018"
 msgstr "December 2018"
 
@@ -160,8 +163,16 @@ msgstr "Everything man"
 
 #: src/Data/SoftwareExperience.ts:116
 #: src/Data/SoftwareExperience.ts:135
-msgid "Helped the audit team with IT based audits"
-msgstr "Helped the audit team with IT based audits"
+#~ msgid "Helped the audit team with IT based audits"
+#~ msgstr "Helped the audit team with IT based audits"
+
+#: src/Data/SoftwareExperience.ts:148
+msgid ""
+"Helped the audit team with IT based audits, truth be told, I don't recall doing much there, lots of\n"
+"engineering documation and validation, but that's it."
+msgstr ""
+"Helped the audit team with IT based audits, truth be told, I don't recall doing much there, lots of\n"
+"engineering documation and validation, but that's it."
 
 #. js-lingui-explicit-id
 #: src/Pages/About.tsx:17
@@ -177,8 +188,26 @@ msgid "I made this while at my last year of uni, it was for a class in unreal en
 msgstr "I made this while at my last year of uni, it was for a class in unreal engine and this was the menu song. I recorded a two more songs and with multiple track to layer and plug and play as a beat maker loop."
 
 #: src/Data/SoftwareExperience.ts:127
-msgid "I was tasked with automating some of the repetitive tasks using VBS."
-msgstr "I was tasked with automating some of the repetitive tasks using VBS."
+#~ msgid "I was tasked with automating some of the repetitive tasks using VBS."
+#~ msgstr "I was tasked with automating some of the repetitive tasks using VBS."
+
+#: src/Data/SoftwareExperience.ts:158
+msgid ""
+"I was tasked with automating some of the repetitive tasks using VBS. I wish I could say more,\n"
+"but at the time of writing the summary, I truly don't remember, since it was almost 7 years ago."
+msgstr ""
+"I was tasked with automating some of the repetitive tasks using VBS. I wish I could say more,\n"
+"but at the time of writing the summary, I truly don't remember, since it was almost 7 years ago."
+
+#: src/Data/SoftwareExperience.ts:166
+msgid ""
+"I was tasked with automating some of the repetitive tasks using. Mainly I wrote a script that\n"
+"drew a Bill of Material right onto the CAD drawing. It saved collegues several hours each time they needed to copy\n"
+"from MS Office (either Work or Excel) into Autocad."
+msgstr ""
+"I was tasked with automating some of the repetitive tasks using. Mainly I wrote a script that\n"
+"drew a Bill of Material right onto the CAD drawing. It saved collegues several hours each time they needed to copy\n"
+"from MS Office (either Work or Excel) into Autocad."
 
 #: src/Data/SoftwareExperience.ts:38
 msgid ""
@@ -200,8 +229,7 @@ msgid "About.Features3"
 msgstr "Inspectable (Find out!)"
 
 #: src/Data/MecanicExperience.ts:9
-#: src/Data/MusicExperience.ts:9
-#: src/Data/SoftwareExperience.ts:88
+#: src/Data/SoftwareExperience.ts:98
 msgid "iOS App"
 msgstr "iOS App"
 
@@ -210,7 +238,7 @@ msgstr "iOS App"
 msgid "iOS Ar app for shopping"
 msgstr "iOS Ar app for shopping"
 
-#: src/Data/SoftwareExperience.ts:89
+#: src/Data/SoftwareExperience.ts:99
 msgid ""
 "iOS Ar app for shopping, moslty developped with unity, but we had an ongoing project to store\n"
 "all of the gameobjects, 3ds, textures on Aws.S3 and feed them directly into the app. While it was not the best, \n"
@@ -229,23 +257,23 @@ msgid "January 2011"
 msgstr "January 2011"
 
 #: src/Data/SoftwareExperience.ts:103
-msgid "January 2019"
-msgstr "January 2019"
+#~ msgid "January 2019"
+#~ msgstr "January 2019"
 
-#: src/Data/SoftwareExperience.ts:75
+#: src/Data/SoftwareExperience.ts:85
 msgid "January 2024"
 msgstr "January 2024"
 
 #. js-lingui-explicit-id
 #: src/Pages/About.tsx:27
 msgid "Key"
-msgstr "Key"
+msgstr "Key Features"
 
 #: src/Data/SoftwareExperience.ts:99
 #~ msgid "Lead Software Developper"
 #~ msgstr "Lead Software Developper"
 
-#: src/Data/SoftwareExperience.ts:105
+#: src/Data/SoftwareExperience.ts:115
 msgid "Lead the developpement for the prototyping of an AR app for luxury shopping"
 msgstr "Lead the developpement for the prototyping of an AR app for luxury shopping"
 
@@ -267,24 +295,32 @@ msgstr "Man with interests, hobbies and knowledge writing his cv in web form usi
 #~ "Managed a fullstack (web + native iOS with services on AWS) foot scanning services\n"
 #~ "to create 3d printable foot orthosis as well as other deprecated projects and connexe work"
 
-#: src/Data/SoftwareExperience.ts:76
+#: src/Data/SoftwareExperience.ts:86
 msgid ""
 "Managed a fullstack foot scanning services (web + native iOS with 3D services on AWS) \n"
-"to create 3d printable foot orthosis as well as other deprecated projects and connexe work"
+"to create 3d printable foot orthosis and more"
 msgstr ""
 "Managed a fullstack foot scanning services (web + native iOS with 3D services on AWS) \n"
-"to create 3d printable foot orthosis as well as other deprecated projects and connexe work"
+"to create 3d printable foot orthosis and more"
+
+#: src/Data/SoftwareExperience.ts:76
+#~ msgid ""
+#~ "Managed a fullstack foot scanning services (web + native iOS with 3D services on AWS) \n"
+#~ "to create 3d printable foot orthosis as well as other deprecated projects and connexe work"
+#~ msgstr ""
+#~ "Managed a fullstack foot scanning services (web + native iOS with 3D services on AWS) \n"
+#~ "to create 3d printable foot orthosis as well as other deprecated projects and connexe work"
 
 #. js-lingui-explicit-id
 #: src/Pages/About.tsx:31
 msgid "About.Features1"
 msgstr "Manually styled (Sass, css, scss, who knows?)"
 
-#: src/Data/SoftwareExperience.ts:159
+#: src/Data/SoftwareExperience.ts:209
 msgid "May 2024"
 msgstr "May 2024"
 
-#: src/Data/SoftwareExperience.ts:67
+#: src/Data/SoftwareExperience.ts:74
 msgid "Milling GCode generator"
 msgstr "Milling GCode generator"
 
@@ -293,20 +329,24 @@ msgstr "Milling GCode generator"
 msgid "About.Features2"
 msgstr "Minimal usage of packages (if any, I guess time will tell)"
 
-#: src/Data/SoftwareExperience.ts:74
+#: src/Data/SoftwareExperience.ts:84
 msgid "October 2021"
 msgstr "October 2021"
 
-#: src/Data/SoftwareExperience.ts:160
+#: src/Data/MusicExperience.ts:9
+msgid "Omiom du rock 2015"
+msgstr "Omiom du rock 2015"
+
+#: src/Data/SoftwareExperience.ts:210
 msgid "OnGoing"
 msgstr "OnGoing"
 
 #: src/Data/SoftwareExperience.ts:161
-msgid "Online Custom portfolio made using react and css"
-msgstr "Online Custom portfolio made using react and css"
+#~ msgid "Online Custom portfolio made using react and css"
+#~ msgstr "Online Custom portfolio made using react and css"
 
-#: src/Data/SoftwareExperience.ts:150
-#: src/Data/SoftwareExperience.ts:162
+#: src/Data/SoftwareExperience.ts:200
+#: src/Data/SoftwareExperience.ts:212
 msgid "Online CV"
 msgstr "Online CV"
 
@@ -322,30 +362,86 @@ msgstr "Order system management"
 msgid "Project Management"
 msgstr "Project Management"
 
+#: src/Data/SoftwareExperience.ts:143
+msgid "Recommandation document writing"
+msgstr "Recommandation document writing"
+
+#: src/Data/SoftwareExperience.ts:132
+msgid "Reviewed some SQL rollback actions and wrote conclusions on what when why"
+msgstr "Reviewed some SQL rollback actions and wrote conclusions on what when why"
+
 #: src/Data/SoftwareExperience.ts:46
 msgid "Rhino-Grasshopper Automation"
 msgstr "Rhino-Grasshopper Automation"
 
+#: src/Data/SoftwareExperience.ts:183
+msgid "September 2017"
+msgstr "September 2017"
+
+#: src/Data/SoftwareExperience.ts:113
+msgid "September 2019"
+msgstr "September 2019"
+
 #: src/Data/MecanicExperience.ts:13
 #: src/Data/MusicExperience.ts:13
-#: src/Data/SoftwareExperience.ts:97
+#: src/Data/SoftwareExperience.ts:107
 msgid "Shaders"
 msgstr "Shaders"
+
+#: src/Data/SoftwareExperience.ts:75
+msgid ""
+"Similar to the Rhino-Grasshopper Automation above, we were tasked previously to create a \n"
+"standalone webservice that would generate 3D post-processed GCode to mill out foam. The pathing was created with\n"
+"grasshopper script while the tool displacement was written in C#, with the conversion from List<Points> to a\n"
+"GCode executable."
+msgstr ""
+"Similar to the Rhino-Grasshopper Automation above, we were tasked previously to create a \n"
+"standalone webservice that would generate 3D post-processed GCode to mill out foam. The pathing was created with\n"
+"grasshopper script while the tool displacement was written in C#, with the conversion from List<Points> to a\n"
+"GCode executable."
 
 #: src/Data/MecanicExperience.ts:19
 msgid "So many things. Like, so many."
 msgstr "So many things. Like, so many."
 
-#: src/Data/SoftwareExperience.ts:78
-#: src/Data/SoftwareExperience.ts:106
+#: src/Data/SoftwareExperience.ts:88
+#: src/Data/SoftwareExperience.ts:116
 msgid "Software Developper"
 msgstr "Software Developper"
 
-#: src/Data/SoftwareExperience.ts:136
+#: src/Data/SoftwareExperience.ts:186
 msgid "Software Developper Intern"
 msgstr "Software Developper Intern"
 
-#: src/Data/SoftwareExperience.ts:151
+#: src/Data/SoftwareExperience.ts:47
+msgid ""
+"Some of the modelisation was previously crafted via visual scripting with grasshopper and Rhino.\n"
+"So we've been tasked to write a service in .Net Framework that would listen to newly arrived 3D model with their\n"
+"inputed parameters which would create the relative and conform foot orthosis 3d model."
+msgstr ""
+"Some of the modelisation was previously crafted via visual scripting with grasshopper and Rhino.\n"
+"So we've been tasked to write a service in .Net Framework that would listen to newly arrived 3D model with their\n"
+"inputed parameters which would create the relative and conform foot orthosis 3d model."
+
+#: src/Data/SoftwareExperience.ts:139
+msgid ""
+"Subsequent to the validation of IT processes, wrote recommandation for the different teams\n"
+"when they should change some of their processes in due time."
+msgstr ""
+"Subsequent to the validation of IT processes, wrote recommandation for the different teams\n"
+"when they should change some of their processes in due time."
+
+#: src/Data/SoftwareExperience.ts:175
+msgid ""
+"The team had some previous tools that were written in Visual Basic which were really poorly \n"
+"written (4000+ lines methods, variable names unreadable (i.e: vim DoSt(vr, ae, vva, aas, mmb, etc.))) that I partly\n"
+"refactored."
+msgstr ""
+"The team had some previous tools that were written in Visual Basic which were really poorly \n"
+"written (4000+ lines methods, variable names unreadable (i.e: vim DoSt(vr, ae, vva, aas, mmb, etc.))) that I partly\n"
+"refactored."
+
+#: src/Data/SoftwareExperience.ts:201
 msgid ""
 "This is basically a place for me to write about me, anb publish, maybe songs that I wrote\n"
 "myself or with my band, Coldsun"
@@ -356,6 +452,22 @@ msgstr ""
 #: src/Pages/Music.tsx:21
 msgid "This was recorded in coldsun drummer's basement. We have since improved the song quite a bit and mostly, are more at ease playing it. Also, you can totally hear the change to 7/4 and how incomfortable it made me while singing.<0/><1/>Vocals: JP, Antoine<2/>Guitar: JP,<3/>Bass: Antoine,<4/>Drums: Franco,<5/>Mixing: Antoine,<6/>Mastering: Antoine,<7/>Lyrics: Franco,<8/>Composition: JP, Franco, Antoine"
 msgstr "This was recorded in coldsun drummer's basement. We have since improved the song quite a bit and mostly, are more at ease playing it. Also, you can totally hear the change to 7/4 and how incomfortable it made me while singing.<0/><1/>Vocals: JP, Antoine<2/>Guitar: JP,<3/>Bass: Antoine,<4/>Drums: Franco,<5/>Mixing: Antoine,<6/>Mastering: Antoine,<7/>Lyrics: Franco,<8/>Composition: JP, Franco, Antoine"
+
+#: src/Data/SoftwareExperience.ts:135
+msgid "Validation of IT processes"
+msgstr "Validation of IT processes"
+
+#: src/Data/SoftwareExperience.ts:65
+msgid ""
+"We explored creating our own queue system for our production team with the automation of \n"
+"self feeding 3D printing machine. The plan, which was never fully developped, was to have a cluster of printer\n"
+"working continuously, ejecting printed parts autonomously. We had a working prototype but we never were able to \n"
+"complete the ejection, which aborted the project."
+msgstr ""
+"We explored creating our own queue system for our production team with the automation of \n"
+"self feeding 3D printing machine. The plan, which was never fully developped, was to have a cluster of printer\n"
+"working continuously, ejecting printed parts autonomously. We had a working prototype but we never were able to \n"
+"complete the ejection, which aborted the project."
 
 #: src/Data/SoftwareExperience.ts:21
 msgid ""
@@ -368,14 +480,36 @@ msgstr ""
 "and took significant time, but was used 5% of the day, which was fine."
 
 #: src/Data/SoftwareExperience.ts:30
+#~ msgid ""
+#~ "We used github project with its issues as a kanban tracker. We configured multiple views\n"
+#~ "and were able to automate some of the"
+#~ msgstr ""
+#~ "We used github project with its issues as a kanban tracker. We configured multiple views\n"
+#~ "and were able to automate some of the"
+
+#: src/Data/SoftwareExperience.ts:30
 msgid ""
 "We used github project with its issues as a kanban tracker. We configured multiple views\n"
-"and were able to automate some of the"
+"and were able to automate some of the tracking within the normal use of issues and pull requests statuses."
 msgstr ""
 "We used github project with its issues as a kanban tracker. We configured multiple views\n"
-"and were able to automate some of the"
+"and were able to automate some of the tracking within the normal use of issues and pull requests statuses."
+
+#: src/Data/SoftwareExperience.ts:56
+msgid ""
+"We were tasked in adapting 3dviewer.net viewer to allow our users to see the 3D models of \n"
+"the scans as well as the completed orthotics. We added more functionnality in the viewer as well to pipe some\n"
+"of the locally used tool into a complete back-end service"
+msgstr ""
+"We were tasked in adapting 3dviewer.net viewer to allow our users to see the 3D models of \n"
+"the scans as well as the completed orthotics. We added more functionnality in the viewer as well to pipe some\n"
+"of the locally used tool into a complete back-end service"
 
 #. js-lingui-explicit-id
 #: src/Pages/About.tsx:14
 msgid "About.Why"
 msgstr "Why"
+
+#: src/Data/SoftwareExperience.ts:185
+msgid "Worked with an Electrical engineer team to automate some of their tasks"
+msgstr "Worked with an Electrical engineer team to automate some of their tasks"
