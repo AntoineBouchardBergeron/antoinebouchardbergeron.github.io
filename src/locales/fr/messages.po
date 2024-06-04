@@ -170,14 +170,14 @@ msgstr "J'ai fait ceci à ma dernière année à l'université, c'était pour un
 msgid ""
 "I was tasked with automating some of the repetitive tasks using VBS. I wish I could say more,\n"
 "but at the time of writing the summary, I truly don't remember, since it was almost 7 years ago."
-msgstr "La première amélioration qu'on m'avait demandé dans mon stagé était d'automatiser des tâches répétitives en VBS, liant excel à E3.cables. "
+msgstr "La première amélioration qu'on m'avait demandé dans mon stagé était d'automatiser des tâches répétitives en VBS, liant excel à E3.cables. J'aimerais donner plus d'informations, mais cela fait déjà 7 ans de ça et je m'en souviens plus trop.."
 
 #: src/Data/SoftwareExperience.ts:166
 msgid ""
 "I was tasked with automating some of the repetitive tasks using. Mainly I wrote a script that\n"
 "drew a Bill of Material right onto the CAD drawing. It saved collegues several hours each time they needed to copy\n"
 "from MS Office (either Work or Excel) into Autocad."
-msgstr ""
+msgstr "Comme le projet d'automatisation avancait rapidement et qu'il restait du temps avant la fin de mon stage, on m'a demandé de me joindre à d'autres équipes de dessins afin de créer un 'Bill of Material' automatiquement à partir de word ou excel vers Autocad."
 
 #: src/Data/SoftwareExperience.ts:38
 msgid ""
@@ -188,7 +188,7 @@ msgstr ""
 
 #: src/Pages/Music.tsx:9
 msgid "I wrote, recorded, mixed all of this track by myself, pretty much self taugth, if you don't count the occassionnal youtube video. I wanted to record this because I was going on a trip and I used to play this little tune to my child every day!"
-msgstr ""
+msgstr "J'ai écrit, enregistré, mixé tout sur cette piste là moi-même, de façon plutôt autodidacte, si on ignore l'occassionnel vidéo youtube. Je voulais enregistrer cette chanson puisque je partais en voyage et j'avais l'habitudfe de jouer ceci chaque jour à ma fille!"
 
 #. js-lingui-explicit-id
 #: src/Pages/About.tsx:41
