@@ -58,7 +58,9 @@ a {
   text-decoration: none;
 }
 
-;
+.no-padding {
+  padding: 0rem;
+}
 
 p {
   font-weight: var(--font-weigth);

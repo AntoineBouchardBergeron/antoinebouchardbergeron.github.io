@@ -14,27 +14,27 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. js-lingui-explicit-id
-#: src/Components/Header.tsx:43
+#: src/Components/Header.tsx:38
 msgid "Home"
 msgstr "Home"
 
 #. js-lingui-explicit-id
-#: src/Components/Header.tsx:48
+#: src/Components/Header.tsx:43
 msgid "Software"
 msgstr "Software"
 
 #. js-lingui-explicit-id
-#: src/Components/Header.tsx:53
+#: src/Components/Header.tsx:48
 msgid "Mecanic"
 msgstr "Mecanic"
 
 #. js-lingui-explicit-id
-#: src/Components/Header.tsx:58
+#: src/Components/Header.tsx:53
 msgid "Music"
 msgstr "Music"
 
 #. js-lingui-explicit-id
-#: src/Components/Header.tsx:63
+#: src/Components/Header.tsx:58
 msgid "Contact"
 msgstr "Contact"
 
@@ -98,7 +98,6 @@ msgstr "Bass player and vocalist"
 msgid "Bass player and vocalist, that's it really.."
 msgstr "Bass player and vocalist, that's it really.."
 
-#: src/Pages/Contact.tsx:7
 #: src/Pages/Mecanic.tsx:7
 msgid "Coming soon"
 msgstr "Coming soon"
@@ -152,6 +151,10 @@ msgstr "December 2018"
 #: src/Pages/About.tsx:50
 msgid "About.Learning.Description"
 msgstr "Doing so, I have consolided my knowledge of front-end web programming, (html and css) I also finally have learned and completed the routing and hosting myself of web apps ."
+
+#: src/Pages/Contact.tsx:9
+msgid "Email"
+msgstr "Email"
 
 #: src/Data/MecanicExperience.ts:20
 msgid "Everything man"

@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 import { Fragment } from "react/jsx-runtime";
 import { ThemeKey, ThemeKeys } from "../Hooks/Theme";
 import "./Header.css";
@@ -26,10 +25,6 @@ const Header = (props: Props) => {
     i18n.activate(value);
     window.localStorage.setItem("langage", value);
   };
-
-  useEffect(() => {
-    console.log(location)
-  })
 
   return (
     <header className="header">

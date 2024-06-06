@@ -14,27 +14,27 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. js-lingui-explicit-id
-#: src/Components/Header.tsx:43
+#: src/Components/Header.tsx:38
 msgid "Home"
 msgstr "Acceuil"
 
 #. js-lingui-explicit-id
-#: src/Components/Header.tsx:48
+#: src/Components/Header.tsx:43
 msgid "Software"
 msgstr "Logiciel"
 
 #. js-lingui-explicit-id
-#: src/Components/Header.tsx:53
+#: src/Components/Header.tsx:48
 msgid "Mecanic"
 msgstr "Mécanique"
 
 #. js-lingui-explicit-id
-#: src/Components/Header.tsx:58
+#: src/Components/Header.tsx:53
 msgid "Music"
 msgstr "Musique"
 
 #. js-lingui-explicit-id
-#: src/Components/Header.tsx:63
+#: src/Components/Header.tsx:58
 msgid "Contact"
 msgstr "Contact"
 
@@ -88,7 +88,6 @@ msgstr "Bassiste et chanteux"
 msgid "Bass player and vocalist, that's it really.."
 msgstr "Bassiste et chanteur, c'est à peu près tout"
 
-#: src/Pages/Contact.tsx:7
 #: src/Pages/Mecanic.tsx:7
 msgid "Coming soon"
 msgstr "En écriture"
@@ -115,11 +114,16 @@ msgstr "Création de 'nuanceur de vertex' (aka shader) pour créer différents e
 #: src/Data/SoftwareExperience.ts:11
 msgid ""
 "Custom order service system for orthotic sole order. \n"
-"Used multiple services hosted on AWS, Amplify and then mainly, S3, EC2, SQS, AppRunner, RDS.\n"
+"Used multiple services hosted on AWS, Amplify and then mainly, S3, EC2, AppRunner, RDS.\n"
 "This service was built as a Rest API exchanging information between the iOS app and the web service."
 msgstr "Service de commande sur mesure pour des orthèses plantaires bati en utilisant plusieurs services hébergés sur AWS dont Amplify, puis, S3, EC2, AppRunner, RDS, SQS, et plus. Le service est bati comme un Rest API permettant l'échange d'information entre les bases de données et le portail web et l'app mobile iOS."
 
-
+#: src/Data/SoftwareExperience.ts:11
+#~ msgid ""
+#~ "Custom order service system for orthotic sole order. \n"
+#~ "Used multiple services hosted on AWS, Amplify and then mainly, S3, EC2, SQS, AppRunner, RDS.\n"
+#~ "This service was built as a Rest API exchanging information between the iOS app and the web service."
+#~ msgstr "Service de commande sur mesure pour des orthèses plantaires bati en utilisant plusieurs services hébergés sur AWS dont Amplify, puis, S3, EC2, AppRunner, RDS, SQS, et plus. Le service est bati comme un Rest API permettant l'échange d'information entre les bases de données et le portail web et l'app mobile iOS."
 
 #: src/Data/SoftwareExperience.ts:147
 msgid "December 2018"
@@ -129,6 +133,10 @@ msgstr "Décembre 2018"
 #: src/Pages/About.tsx:50
 msgid "About.Learning.Description"
 msgstr "Ce faisant, j'ai consolidé mes connaissances de programmation fonctionnel en front-end (html? htmlx?, css). J'ai enfin appris également sur le procédé d'achat de domaine, d'hébergement sans passer par un des géants (quoique, github, c'est rendu plutôt gros non?)"
+
+#: src/Pages/Contact.tsx:9
+msgid "Email"
+msgstr "Courriel"
 
 #: src/Data/MecanicExperience.ts:20
 msgid "Everything man"
