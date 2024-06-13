@@ -148,9 +148,13 @@ msgid "December 2018"
 msgstr "December 2018"
 
 #. js-lingui-explicit-id
-#: src/Pages/About.tsx:50
+#: src/Pages/About.tsx:67
 msgid "About.Learning.Description"
 msgstr "Doing so, I have consolided my knowledge of front-end web programming, (html and css) I also finally have learned and completed the routing and hosting myself of web apps ."
+
+#: src/Data/SoftwareExperience.ts:162
+msgid "E3.cables automation"
+msgstr "E3.cables automation"
 
 #: src/Pages/Contact.tsx:9
 msgid "Email"
@@ -174,13 +178,18 @@ msgid ""
 "Helped the audit team with IT based audits, truth be told, I don't recall doing much there, lots of\n"
 "engineering documation and validation, but that's it."
 msgstr ""
-"Helped the audit team with IT based audits, truth be told, I don't recall doing much there, lots of\n"
-"engineering documation and validation, but that's it."
+"Helped the audit team with IT based audits lots of\n"
+"engineering documation and validation."
 
 #. js-lingui-explicit-id
-#: src/Pages/About.tsx:17
+#: src/Pages/About.tsx:15
+msgid "About.WhoAnswer"
+msgstr "Hi!<0/>          <1/>My name is Antoine Bouchard-Bergeron, I'm a Bachelor in Software Engineering. I've worked in many fields and did numerous typw of work which taugh me a lot of things over the years.<2/>          <3/>My time in the mecanical field taught me to be precise, rigourous, efficient and methodical. <4/>          <5/>My new life in software development opened my eyes to a thirst of knowledge I didn't know I had which is fueled by my attention to detail, my love of architectural and pattern design and my need for fixing problems.<6/><7/>I'm also a big fan of sounds and music, which I play and compose."
+
+#. js-lingui-explicit-id
+#: src/Pages/About.tsx:37
 msgid "About.WhyAnswer"
-msgstr "I always was the type to use shortcuts and (I realise why this was not the best approach way too late) copy-paste. I never truly deepened my knowledge of the web functionnal programming approach. Since I now have the opportunity to find work, I got inspired by my good friend <0>Pascal Laprade</0> to make my own Curriculum vitea as well as use this as a learning experience."
+msgstr "I now have the opportunity to find work, I got inspired by my good friend <0>Pascal Laprade</0> to make my own Curriculum vitea in web app form as well as use this as a learning experience."
 
 #: src/Pages/Music.tsx:17
 msgid "I made this a while ago, I ripped off some chords of a song and used the same as a beat, to motivate myself to study for an exam, but I ended up playing the bass and jamming on this pretty much all night."
@@ -227,9 +236,9 @@ msgid "I wrote, recorded, mixed all of this track by myself, pretty much self ta
 msgstr "I wrote, recorded, mixed all of this track by myself, pretty much self taugth, if you don't count the occassionnal youtube video. I wanted to record this because I was going on a trip and I used to play this little tune to my child every day!"
 
 #. js-lingui-explicit-id
-#: src/Pages/About.tsx:41
+#: src/Pages/About.tsx:58
 msgid "About.Features3"
-msgstr "Inspectable (Find out!)"
+msgstr "Inspectable"
 
 #: src/Data/MecanicExperience.ts:9
 #: src/Data/SoftwareExperience.ts:98
@@ -268,7 +277,7 @@ msgid "January 2024"
 msgstr "January 2024"
 
 #. js-lingui-explicit-id
-#: src/Pages/About.tsx:27
+#: src/Pages/About.tsx:44
 msgid "Key"
 msgstr "Key Features"
 
@@ -281,12 +290,12 @@ msgid "Lead the developpement for the prototyping of an AR app for luxury shoppi
 msgstr "Lead the developpement for the prototyping of an AR app for luxury shopping"
 
 #. js-lingui-explicit-id
-#: src/Pages/About.tsx:47
+#: src/Pages/About.tsx:64
 msgid "About.Learning"
 msgstr "Learning"
 
 #. js-lingui-explicit-id
-#: src/Pages/About.tsx:11
+#: src/Pages/About.tsx:10
 msgid "About.Intro"
 msgstr "Man with interests, hobbies and knowledge writing his cv in web form using React, Typescript, and functionnal programming."
 
@@ -315,9 +324,9 @@ msgstr ""
 #~ "to create 3d printable foot orthosis as well as other deprecated projects and connexe work"
 
 #. js-lingui-explicit-id
-#: src/Pages/About.tsx:31
+#: src/Pages/About.tsx:48
 msgid "About.Features1"
-msgstr "Manually styled (Sass, css, scss, who knows?)"
+msgstr "Manually styled"
 
 #: src/Data/SoftwareExperience.ts:209
 msgid "May 2024"
@@ -328,9 +337,13 @@ msgid "Milling GCode generator"
 msgstr "Milling GCode generator"
 
 #. js-lingui-explicit-id
-#: src/Pages/About.tsx:36
+#: src/Pages/About.tsx:53
 msgid "About.Features2"
-msgstr "Minimal usage of packages (if any, I guess time will tell)"
+msgstr "Minimal usage of packages"
+
+#: src/Data/SoftwareExperience.ts:171
+msgid "MS Excel/Word to Autocad drawings"
+msgstr "MS Excel/Word to Autocad drawings"
 
 #: src/Data/SoftwareExperience.ts:84
 msgid "October 2021"
@@ -368,6 +381,10 @@ msgstr "Project Management"
 #: src/Data/SoftwareExperience.ts:143
 msgid "Recommandation document writing"
 msgstr "Recommandation document writing"
+
+#: src/Data/SoftwareExperience.ts:180
+msgid "Refactoring and optimisation"
+msgstr "Refactoring and optimisation"
 
 #: src/Data/SoftwareExperience.ts:132
 msgid "Reviewed some SQL rollback actions and wrote conclusions on what when why"
@@ -509,7 +526,7 @@ msgstr ""
 "of the locally used tool into a complete back-end service"
 
 #. js-lingui-explicit-id
-#: src/Pages/About.tsx:14
+#: src/Pages/About.tsx:34
 msgid "About.Why"
 msgstr "Why"
 

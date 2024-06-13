@@ -114,7 +114,7 @@ const lode3DExperience = (i18n: I18n) => (
     end: t(i18n)`August 2021`,
     summary: t(i18n)`Lead the developpement for the prototyping of an AR app for luxury shopping`,
     title: t(i18n)`Software Developper`,
-    workplace: "Lode"
+    workplace: "Lode by Studio FictionMine"
   }) as SoftwareExperience
 
 const AirTransatExperience = (i18n: I18n) => (
@@ -159,7 +159,7 @@ const StantecExperience = (i18n: I18n) => ({
       but at the time of writing the summary, I truly don't remember, since it was almost 7 years ago.`,
       framework: ["OfficeSuite", "E3"],
       languages: ["VB", "VBS"],
-      title: "E3.cables automation",
+      title: t(i18n)`E3.cables automation`,
     },    
     {
       architecture: ["Standalone Service"],
@@ -168,7 +168,7 @@ const StantecExperience = (i18n: I18n) => ({
       from MS Office (either Work or Excel) into Autocad.`,
       framework: ["OfficeSuite"],
       languages: ["VB", "VBS"],
-      title: "MS Excel/Word to Autocad drawings",
+      title: t(i18n)`MS Excel/Word to Autocad drawings`,
     },
     {
       architecture: ["Standalone Service"],
@@ -177,7 +177,7 @@ const StantecExperience = (i18n: I18n) => ({
       refactored.`,
       framework: ["OfficeSuite"],
       languages: ["VB"],
-      title: "Refactoring and optimisation",
+      title: t(i18n)`Refactoring and optimisation`,
     },
   ],
   start: t(i18n)`September 2017`,
@@ -216,6 +216,8 @@ const onlineCV = (i18n: I18n) => ({
 export const projectExperience: Array<(i18n: I18n) => SoftwareExperience> = [
   onlineCV,
 ]
+
+
 
 
 export default softwareExperiences

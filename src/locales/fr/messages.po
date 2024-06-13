@@ -130,9 +130,13 @@ msgid "December 2018"
 msgstr "Décembre 2018"
 
 #. js-lingui-explicit-id
-#: src/Pages/About.tsx:50
+#: src/Pages/About.tsx:67
 msgid "About.Learning.Description"
 msgstr "Ce faisant, j'ai consolidé mes connaissances de programmation fonctionnel en front-end (html? htmlx?, css). J'ai enfin appris également sur le procédé d'achat de domaine, d'hébergement sans passer par un des géants (quoique, github, c'est rendu plutôt gros non?)"
+
+#: src/Data/SoftwareExperience.ts:162
+msgid "E3.cables automation"
+msgstr "Automatisation de E3.cables"
 
 #: src/Pages/Contact.tsx:9
 msgid "Email"
@@ -158,9 +162,15 @@ msgid ""
 msgstr "J'ai aidé l'équipe d'audit avec mes tests d'audits en TI. Je n'ai malheureusement pas de souvenir exact sur ce que j'ai fait, outre l'écriture de plusieurs documents de validations et de recommandations"
 
 #. js-lingui-explicit-id
-#: src/Pages/About.tsx:17
+#: src/Pages/About.tsx:15
+msgid "About.WhoAnswer"
+msgstr "Bonjour!<0/>          <1/>Je m'appelle Antoine Bouchard-Bergeron, je suis bachelier en génie logiciel. J'ai travaillé dans toutes sortes de domaines ce qui m'a permis d'apprendre toute sortes de choses, autant sur moi que sur mes habiletés<2/>          <3/>Mon passage en génie mécanique m'a appris à être précis, concis, rigoureux, efficace et méthodique<4/>          <5/>Ma vie en logiciel m'a ouvert les yeux sur une soif de connaissances que j'ignorais avoir. Celle-ci est alimenté par mon soucis du détail, mon amour du design logiciel et systèmes et mon désir de résoudre des problèmes.<6/><7/>Je suis également un amoureux de la musique, j'en joue et j'en compose."
+
+
+#. js-lingui-explicit-id
+#: src/Pages/About.tsx:37
 msgid "About.WhyAnswer"
-msgstr "J'ai toujours été le genre a utiliser des raccourcis et (Je réalise maintenant que c'était une piètre approche) copier-coller. Je n'ai donc jamais approfondi mes connaissances de l'écriture du code fonctionnel. Depuis que j'ai l'occassion de retrouver du travail, j'ai été inspiré par mon bon ami <0>Pascal Laprade</0> à réécrire mon CV sous forme de web app, ce qui devrait me prouver être un bel apprentissage."
+msgstr "J'ai été inspiré par mon bon ami <0>Pascal Laprade</0> à écrire un CV alternatif sous forme de web app.De cette façon, il m'est possible de consolider et de prouver mes capacités à amener un projet à terme et en apprennant de nouvelles techniques."
 
 #: src/Pages/Music.tsx:17
 msgid "I made this a while ago, I ripped off some chords of a song and used the same as a beat, to motivate myself to study for an exam, but I ended up playing the bass and jamming on this pretty much all night."
@@ -199,7 +209,7 @@ msgid "I wrote, recorded, mixed all of this track by myself, pretty much self ta
 msgstr "J'ai écrit, enregistré, mixé tout sur cette piste là moi-même, de façon plutôt autodidacte, si on ignore l'occassionnel vidéo youtube. Je voulais enregistrer cette chanson puisque je partais en voyage et j'avais l'habitudfe de jouer ceci chaque jour à ma fille!"
 
 #. js-lingui-explicit-id
-#: src/Pages/About.tsx:41
+#: src/Pages/About.tsx:58
 msgid "About.Features3"
 msgstr "Inspectable (Pour trouver tout mes secrets!)"
 
@@ -237,7 +247,7 @@ msgid "January 2024"
 msgstr "Janvier 2024"
 
 #. js-lingui-explicit-id
-#: src/Pages/About.tsx:27
+#: src/Pages/About.tsx:44
 msgid "Key"
 msgstr "Éléments Clés"
 
@@ -250,12 +260,12 @@ msgid "Lead the developpement for the prototyping of an AR app for luxury shoppi
 msgstr "Gérer le développement du prototypage d'un application en réalité virtuel pour de la vente d'accessoire de luxe"
 
 #. js-lingui-explicit-id
-#: src/Pages/About.tsx:47
+#: src/Pages/About.tsx:64
 msgid "About.Learning"
 msgstr "Apprentissages"
 
 #. js-lingui-explicit-id
-#: src/Pages/About.tsx:11
+#: src/Pages/About.tsx:10
 msgid "About.Intro"
 msgstr "Un homme simple, avec des intérets, des passes-temps et des connaissances écrit son Curriculum vitea en format web utilisant React, Typescript conservant un style fonctionnel"
 
@@ -263,7 +273,7 @@ msgstr "Un homme simple, avec des intérets, des passes-temps et des connaissanc
 #~ msgid ""
 #~ "Managed a fullstack (web + native iOS with services on AWS) foot scanning services\n"
 #~ "to create 3d printable foot orthosis as well as other deprecated projects and connexe work"
-#~ msgstr ""
+#~ msgstr "Gestion d'un service fullstack de prise d'empreinte de pied (web + iOS native avec services 3D sur aws) afin de générer des modèles 3D imprimable"
 
 #: src/Data/SoftwareExperience.ts:86
 msgid ""
@@ -275,10 +285,10 @@ msgstr "Gestion d'un service fullstack de prise d'empreinte de pied (web + iOS n
 #~ msgid ""
 #~ "Managed a fullstack foot scanning services (web + native iOS with 3D services on AWS) \n"
 #~ "to create 3d printable foot orthosis as well as other deprecated projects and connexe work"
-#~ msgstr ""
+#~ msgstr "Gestion d'un service fullstack de prise d'empreinte de pied (web + iOS native avec services 3D sur aws) afin de générer des modèles 3D imprimable"
 
 #. js-lingui-explicit-id
-#: src/Pages/About.tsx:31
+#: src/Pages/About.tsx:48
 msgid "About.Features1"
 msgstr "Stylé manuellement (Sass, css, scss, qui sait?)"
 
@@ -291,9 +301,13 @@ msgid "Milling GCode generator"
 msgstr "Générateur de code G pour fraisage"
 
 #. js-lingui-explicit-id
-#: src/Pages/About.tsx:36
+#: src/Pages/About.tsx:53
 msgid "About.Features2"
 msgstr "Utilisation minimal de librairie/package (S'il y en a tout court (excepté React, on s'entend))"
+
+#: src/Data/SoftwareExperience.ts:171
+msgid "MS Excel/Word to Autocad drawings"
+msgstr "Extraction d'information de Excel/Word vers Autocad"
 
 #: src/Data/SoftwareExperience.ts:84
 msgid "October 2021"
@@ -331,6 +345,10 @@ msgstr "Gestion de projet"
 #: src/Data/SoftwareExperience.ts:143
 msgid "Recommandation document writing"
 msgstr "Écriture de recommandations"
+
+#: src/Data/SoftwareExperience.ts:180
+msgid "Refactoring and optimisation"
+msgstr "Optimisation et réusinage"
 
 #: src/Data/SoftwareExperience.ts:132
 msgid "Reviewed some SQL rollback actions and wrote conclusions on what when why"
@@ -428,7 +446,7 @@ msgstr "On a utilisé les actions de github afin de fabriquer, tester et déplye
 #~ msgid ""
 #~ "We used github project with its issues as a kanban tracker. We configured multiple views\n"
 #~ "and were able to automate some of the"
-#~ msgstr ""
+#~ msgstr "L'utilisation de github project avec ses 'issues' comme ticket nous a servi de tracker kanban. J'avais configuré plusieurs vues permettant de mieux saisir l'évolution des projets. De plus, certaines étapes dans l'évolution des billets étaient automatisé grâce à des github 'actions'"
 
 #: src/Data/SoftwareExperience.ts:30
 msgid ""
@@ -444,7 +462,7 @@ msgid ""
 msgstr "On m'a aussi demandé d'adapter le visualisation '3dviewer.net viewer' afin de permettre à nos utilisateurs de voir les modèles 3D des différents produits. De plus, j'ai ajouté des fonctionnalités qiu ont permis de décentraliser certains opérations effectuer localement précédement."
 
 #. js-lingui-explicit-id
-#: src/Pages/About.tsx:14
+#: src/Pages/About.tsx:34
 msgid "About.Why"
 msgstr "Pourquoi"
 
