@@ -1,0 +1,31 @@
+.title {
+    display: contents;
+    justify-items: center;
+    color: var(--accent);
+}
+
+.subtitle {
+    padding-left: 0.5rem;
+    color: var(--caption);
+}
+
+.collapsible-header {
+    font-size: 1rem;
+    color: var(--text-primary)
+}
+
+.arrow-hidden {
+    width: 1rem;
+    height: 1rem;
+    rotate: -90deg;
+    transition: rotate ease-in-out 0.3s;
+    padding-right: 10px;
+}
+
+.arrow-show {
+    width: 1rem;
+    height: 1rem;
+    rotate: 0deg;
+    transition: rotate ease-out 0.3s;
+    padding-right: 10px;
+}

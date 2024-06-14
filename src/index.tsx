@@ -8,6 +8,7 @@ import { i18n } from "@lingui/core";
 import { I18nProvider } from "@lingui/react";
 import { messages as enMessages } from "./locales/en/messages";
 import { messages as frMessages } from "./locales/fr/messages";
+import { HashRouter } from "react-router-dom";
 
 const preferredLanguage = window.localStorage.getItem("langage") ?? "fr";
 
@@ -21,7 +22,9 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <I18nProvider i18n={i18n}>
-      <App />
+      <HashRouter>
+        <App />
+      </HashRouter>
     </I18nProvider>
   </React.StrictMode>
 );

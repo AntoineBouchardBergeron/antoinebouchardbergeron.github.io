@@ -6,10 +6,6 @@ type Props = {
 };
 
 const ToggleButton = (props: Props) => {
-  //   useEffect(() => {
-  //     console.log(props);
-  //   }, [props]);
-
   return (
     <button
       className={props.isActive ? "active" : "inactive"}

@@ -14,66 +14,458 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. js-lingui-explicit-id
-#: src/Components/Header.tsx:33
+#: src/Components/Header.tsx:38
+msgid "Home"
+msgstr "Acceuil"
+
+#. js-lingui-explicit-id
+#: src/Components/Header.tsx:43
 msgid "Software"
 msgstr "Logiciel"
 
 #. js-lingui-explicit-id
-#: src/Components/Header.tsx:38
+#: src/Components/Header.tsx:48
 msgid "Mecanic"
 msgstr "Mécanique"
 
 #. js-lingui-explicit-id
-#: src/Components/Header.tsx:43
+#: src/Components/Header.tsx:53
 msgid "Music"
 msgstr "Musique"
 
 #. js-lingui-explicit-id
-#: src/Components/Header.tsx:48
+#: src/Components/Header.tsx:58
 msgid "Contact"
 msgstr "Contact"
 
+#: src/Components/ExperienceDetail.tsx:23
+#: src/Components/Software.tsx:15
+#: src/Components/Software.tsx:16
+#~ msgid "{0}"
+#~ msgstr "a"
+
+#: src/Data/SoftwareExperience.ts:64
+msgid "3D Printer park automation"
+msgstr "Automatisation du parc d'impression 3D"
+
+#: src/Data/SoftwareExperience.ts:55
+msgid "3D Viewer web engine adaptation"
+msgstr "Adaptaion d'un visualisateur 3D"
+
+#: src/Data/SoftwareExperience.ts:184
+msgid "April 2018"
+msgstr "Avril 2018"
+
+#: src/Data/SoftwareExperience.ts:150
+msgid "Audit Intern"
+msgstr "Stagiaire en Audit"
+
+#: src/Data/SoftwareExperience.ts:128
+msgid "Audit testing"
+msgstr "Tests d'audits"
+
+#: src/Data/MecanicExperience.ts:18
+msgid "August 2016"
+msgstr "Août 2016"
+
+#: src/Data/SoftwareExperience.ts:146
+msgid "August 2018"
+msgstr "Août 2018"
+
+#: src/Data/SoftwareExperience.ts:114
+msgid "August 2021"
+msgstr "Août 2021"
+
+#: src/Data/SoftwareExperience.ts:20
+msgid "Automation Pipeline"
+msgstr "Flux d'automatisation"
+
+#: src/Data/MusicExperience.ts:19
+msgid "Bass player and vocalist"
+msgstr "Bassiste et chanteux"
+
+#: src/Data/MusicExperience.ts:23
+msgid "Bass player and vocalist, that's it really.."
+msgstr "Bassiste et chanteur, c'est à peu près tout"
+
+#: src/Pages/Mecanic.tsx:7
+msgid "Coming soon"
+msgstr "En écriture"
+
+#: src/Data/SoftwareExperience.ts:125
+msgid "Create and execute audit testing"
+msgstr "Créer et exécuter des tests d'audits"
+
+#: src/Data/MecanicExperience.ts:14
+#: src/Data/MusicExperience.ts:14
+#: src/Data/SoftwareExperience.ts:108
+msgid "Creation of custom shader to create different effects, such as portals, water, and more."
+msgstr "Création de 'nuanceur de vertex' (aka shader) pour créer différents effects tel que des portails, de l'eau et plus"
+
+#: src/Data/SoftwareExperience.ts:20
+#: src/Data/SoftwareExperience.ts:27
+#: src/Data/SoftwareExperience.ts:43
+#: src/Data/SoftwareExperience.ts:50
+#: src/Data/SoftwareExperience.ts:57
+#: src/Data/SoftwareExperience.ts:64
+#~ msgid "Custom order service system for orthotic sole"
+#~ msgstr "Service de commande sur mesure pour des orthèses plantaires"
+
+#: src/Data/SoftwareExperience.ts:11
+msgid ""
+"Custom order service system for orthotic sole order. \n"
+"Used multiple services hosted on AWS, Amplify and then mainly, S3, EC2, AppRunner, RDS.\n"
+"This service was built as a Rest API exchanging information between the iOS app and the web service."
+msgstr "Service de commande sur mesure pour des orthèses plantaires bati en utilisant plusieurs services hébergés sur AWS dont Amplify, puis, S3, EC2, AppRunner, RDS, SQS, et plus. Le service est bati comme un Rest API permettant l'échange d'information entre les bases de données et le portail web et l'app mobile iOS."
+
+#: src/Data/SoftwareExperience.ts:11
+#~ msgid ""
+#~ "Custom order service system for orthotic sole order. \n"
+#~ "Used multiple services hosted on AWS, Amplify and then mainly, S3, EC2, SQS, AppRunner, RDS.\n"
+#~ "This service was built as a Rest API exchanging information between the iOS app and the web service."
+#~ msgstr "Service de commande sur mesure pour des orthèses plantaires bati en utilisant plusieurs services hébergés sur AWS dont Amplify, puis, S3, EC2, AppRunner, RDS, SQS, et plus. Le service est bati comme un Rest API permettant l'échange d'information entre les bases de données et le portail web et l'app mobile iOS."
+
+#: src/Data/SoftwareExperience.ts:147
+msgid "December 2018"
+msgstr "Décembre 2018"
+
 #. js-lingui-explicit-id
-#: src/Components/About.tsx:48
+#: src/Pages/About.tsx:67
 msgid "About.Learning.Description"
 msgstr "Ce faisant, j'ai consolidé mes connaissances de programmation fonctionnel en front-end (html? htmlx?, css). J'ai enfin appris également sur le procédé d'achat de domaine, d'hébergement sans passer par un des géants (quoique, github, c'est rendu plutôt gros non?)"
 
-#. js-lingui-explicit-id
-#: src/Components/About.tsx:15
-msgid "About.WhyAnswer"
-msgstr "J'ai toujours été le genre a utiliser des raccourcis et (Je réalise maintenant que c'était une piètre approche) copier-coller. Je n'ai donc jamais approfondi mes connaissances de l'écriture du code fonctionnel. Depuis que j'ai l'occassion de retrouver du travail, j'ai été inspiré par mon bon ami Pascal Laprade à réécrire mon CV sous forme de web app, ce qui devrait me prouver être un bel apprentissage."
+#: src/Data/SoftwareExperience.ts:162
+msgid "E3.cables automation"
+msgstr "Automatisation de E3.cables"
+
+#: src/Pages/Contact.tsx:9
+msgid "Email"
+msgstr "Courriel"
+
+#: src/Data/MecanicExperience.ts:20
+msgid "Everything man"
+msgstr "Homme à tout faire"
+
+#: src/Data/SoftwareExperience.ts:8
+#~ msgid "FullStack"
+#~ msgstr "FullStack"
+
+#: src/Data/SoftwareExperience.ts:116
+#: src/Data/SoftwareExperience.ts:135
+#~ msgid "Helped the audit team with IT based audits"
+#~ msgstr "Assistance à l'équipe d'audit"
+
+#: src/Data/SoftwareExperience.ts:148
+msgid ""
+"Helped the audit team with IT based audits, truth be told, I don't recall doing much there, lots of\n"
+"engineering documation and validation, but that's it."
+msgstr "J'ai aidé l'équipe d'audit avec mes tests d'audits en TI. Je n'ai malheureusement pas de souvenir exact sur ce que j'ai fait, outre l'écriture de plusieurs documents de validations et de recommandations"
 
 #. js-lingui-explicit-id
-#: src/Components/About.tsx:39
+#: src/Pages/About.tsx:15
+msgid "About.WhoAnswer"
+msgstr "Bonjour!<0/>          <1/>Je m'appelle Antoine Bouchard-Bergeron, je suis bachelier en génie logiciel. J'ai travaillé dans toutes sortes de domaines ce qui m'a permis d'apprendre toute sortes de choses, autant sur moi que sur mes habiletés<2/>          <3/>Mon passage en génie mécanique m'a appris à être précis, concis, rigoureux, efficace et méthodique<4/>          <5/>Ma vie en logiciel m'a ouvert les yeux sur une soif de connaissances que j'ignorais avoir. Celle-ci est alimenté par mon soucis du détail, mon amour du design logiciel et systèmes et mon désir de résoudre des problèmes.<6/><7/>Je suis également un amoureux de la musique, j'en joue et j'en compose."
+
+
+#. js-lingui-explicit-id
+#: src/Pages/About.tsx:37
+msgid "About.WhyAnswer"
+msgstr "J'ai été inspiré par mon bon ami <0>Pascal Laprade</0> à écrire un CV alternatif sous forme de web app.De cette façon, il m'est possible de consolider et de prouver mes capacités à amener un projet à terme et en apprennant de nouvelles techniques."
+
+#: src/Pages/Music.tsx:17
+msgid "I made this a while ago, I ripped off some chords of a song and used the same as a beat, to motivate myself to study for an exam, but I ended up playing the bass and jamming on this pretty much all night."
+msgstr "J'ai fait ça il y a longtemps, j'ai repris les mêmes accords d'une chanson que j'aimais à ce moment, et j'ai fait ce beat pour me motiver à étuider pour un examen, mais au final, j'ai surtout jammé à la basse au lieu d'étudier."
+
+#: src/Pages/Music.tsx:13
+msgid "I made this while at my last year of uni, it was for a class in unreal engine and this was the menu song. I recorded a two more songs and with multiple track to layer and plug and play as a beat maker loop."
+msgstr "J'ai fait ceci à ma dernière année à l'université, c'était pour un cours en unreal engine et ceci était la chanson du menu. J'ai du enregistrer 2 autres tounes avec plusieurs couche pour utiliser comme 'beat maker'"
+
+#: src/Data/SoftwareExperience.ts:127
+#~ msgid "I was tasked with automating some of the repetitive tasks using VBS."
+#~ msgstr "J'ai été mandaté afin d'automatiser des tâches répétitives en VBS"
+
+#: src/Data/SoftwareExperience.ts:158
+msgid ""
+"I was tasked with automating some of the repetitive tasks using VBS. I wish I could say more,\n"
+"but at the time of writing the summary, I truly don't remember, since it was almost 7 years ago."
+msgstr "La première amélioration qu'on m'avait demandé dans mon stagé était d'automatiser des tâches répétitives en VBS, liant excel à E3.cables. J'aimerais donner plus d'informations, mais cela fait déjà 7 ans de ça et je m'en souviens plus trop.."
+
+#: src/Data/SoftwareExperience.ts:166
+msgid ""
+"I was tasked with automating some of the repetitive tasks using. Mainly I wrote a script that\n"
+"drew a Bill of Material right onto the CAD drawing. It saved collegues several hours each time they needed to copy\n"
+"from MS Office (either Work or Excel) into Autocad."
+msgstr "Comme le projet d'automatisation avancait rapidement et qu'il restait du temps avant la fin de mon stage, on m'a demandé de me joindre à d'autres équipes de dessins afin de créer un 'Bill of Material' automatiquement à partir de word ou excel vers Autocad."
+
+#: src/Data/SoftwareExperience.ts:38
+msgid ""
+"I was tasked with my collegues to build an app that would scan feet of our client's \n"
+"patient. The data would be safely sent to the Backend service built alongside the Order System Management\n"
+"(see above). We also added the possibility for our clients to complete the order right after taking the scans."
+msgstr "Un des mandats qui nous a été confié était de construire une app iOS qui prends des scans des pieds des patients de nos clients. Les données prises étaient sécuritairement envoyées vers notre système de commandes."
+
+#: src/Pages/Music.tsx:9
+msgid "I wrote, recorded, mixed all of this track by myself, pretty much self taugth, if you don't count the occassionnal youtube video. I wanted to record this because I was going on a trip and I used to play this little tune to my child every day!"
+msgstr "J'ai écrit, enregistré, mixé tout sur cette piste là moi-même, de façon plutôt autodidacte, si on ignore l'occassionnel vidéo youtube. Je voulais enregistrer cette chanson puisque je partais en voyage et j'avais l'habitudfe de jouer ceci chaque jour à ma fille!"
+
+#. js-lingui-explicit-id
+#: src/Pages/About.tsx:58
 msgid "About.Features3"
 msgstr "Inspectable (Pour trouver tout mes secrets!)"
 
-#. js-lingui-explicit-id
-#: src/Components/About.tsx:25
-msgid "Key"
-msgstr "Inspectable (Pour trouver tout mes secrets!)"
+#: src/Data/MecanicExperience.ts:9
+#: src/Data/SoftwareExperience.ts:98
+msgid "iOS App"
+msgstr "App iOS"
+
+#: src/Data/MecanicExperience.ts:10
+#: src/Data/MusicExperience.ts:10
+msgid "iOS Ar app for shopping"
+msgstr "App iOS en réalité augmenté de magasinage"
+
+#: src/Data/SoftwareExperience.ts:99
+msgid ""
+"iOS Ar app for shopping, moslty developped with unity, but we had an ongoing project to store\n"
+"all of the gameobjects, 3ds, textures on Aws.S3 and feed them directly into the app. While it was not the best, \n"
+"for safety reasons, approach for this kind of distribution, it worked fine for the prototype."
+msgstr "Application de réalité augmentée pour iOS développé dans Unity. L'aspect fullstack de ce projet réside dans l'hébergement des scènes virtuel dans un dépot aws.S3. Tout ces aspects étaient restés à l'état prototypale donc l'aspect iOS app -> S3 sans d'avantage de sécurités ne gênait pas."
+
+#: src/Data/SoftwareExperience.ts:37
+msgid "iOS Mobile app"
+msgstr "Application mobile iOS"
+
+#: src/Data/MecanicExperience.ts:17
+msgid "January 2011"
+msgstr "Janvier 2011"
+
+#: src/Data/SoftwareExperience.ts:103
+#~ msgid "January 2019"
+#~ msgstr "Janvier 2019"
+
+#: src/Data/SoftwareExperience.ts:85
+msgid "January 2024"
+msgstr "Janvier 2024"
 
 #. js-lingui-explicit-id
-#: src/Components/About.tsx:45
+#: src/Pages/About.tsx:44
+msgid "Key"
+msgstr "Éléments Clés"
+
+#: src/Data/SoftwareExperience.ts:99
+#~ msgid "Lead Software Developper"
+#~ msgstr "Développeur Logiciel Principal"
+
+#: src/Data/SoftwareExperience.ts:115
+msgid "Lead the developpement for the prototyping of an AR app for luxury shopping"
+msgstr "Gérer le développement du prototypage d'un application en réalité virtuel pour de la vente d'accessoire de luxe"
+
+#. js-lingui-explicit-id
+#: src/Pages/About.tsx:64
 msgid "About.Learning"
 msgstr "Apprentissages"
 
 #. js-lingui-explicit-id
-#: src/Components/About.tsx:9
+#: src/Pages/About.tsx:10
 msgid "About.Intro"
 msgstr "Un homme simple, avec des intérets, des passes-temps et des connaissances écrit son Curriculum vitea en format web utilisant React, Typescript conservant un style fonctionnel"
 
+#: src/Data/SoftwareExperience.ts:72
+#~ msgid ""
+#~ "Managed a fullstack (web + native iOS with services on AWS) foot scanning services\n"
+#~ "to create 3d printable foot orthosis as well as other deprecated projects and connexe work"
+#~ msgstr "Gestion d'un service fullstack de prise d'empreinte de pied (web + iOS native avec services 3D sur aws) afin de générer des modèles 3D imprimable"
+
+#: src/Data/SoftwareExperience.ts:86
+msgid ""
+"Managed a fullstack foot scanning services (web + native iOS with 3D services on AWS) \n"
+"to create 3d printable foot orthosis and more"
+msgstr "Gestion d'un service fullstack de prise d'empreinte de pied (web + iOS native avec services 3D sur aws) afin de générer des modèles 3D imprimable"
+
+#: src/Data/SoftwareExperience.ts:76
+#~ msgid ""
+#~ "Managed a fullstack foot scanning services (web + native iOS with 3D services on AWS) \n"
+#~ "to create 3d printable foot orthosis as well as other deprecated projects and connexe work"
+#~ msgstr "Gestion d'un service fullstack de prise d'empreinte de pied (web + iOS native avec services 3D sur aws) afin de générer des modèles 3D imprimable"
+
 #. js-lingui-explicit-id
-#: src/Components/About.tsx:29
+#: src/Pages/About.tsx:48
 msgid "About.Features1"
 msgstr "Stylé manuellement (Sass, css, scss, qui sait?)"
 
+#: src/Data/SoftwareExperience.ts:209
+msgid "May 2024"
+msgstr "Mai 2024"
+
+#: src/Data/SoftwareExperience.ts:74
+msgid "Milling GCode generator"
+msgstr "Générateur de code G pour fraisage"
+
 #. js-lingui-explicit-id
-#: src/Components/About.tsx:34
+#: src/Pages/About.tsx:53
 msgid "About.Features2"
 msgstr "Utilisation minimal de librairie/package (S'il y en a tout court (excepté React, on s'entend))"
 
+#: src/Data/SoftwareExperience.ts:171
+msgid "MS Excel/Word to Autocad drawings"
+msgstr "Extraction d'information de Excel/Word vers Autocad"
+
+#: src/Data/SoftwareExperience.ts:84
+msgid "October 2021"
+msgstr "Octobre 2021"
+
+#: src/Data/MusicExperience.ts:9
+msgid "Omiom du rock 2015"
+msgstr "Omiom du rock 2015"
+
+#: src/Data/SoftwareExperience.ts:210
+msgid "OnGoing"
+msgstr "En cours"
+
+#: src/Data/SoftwareExperience.ts:161
+#~ msgid "Online Custom portfolio made using react and css"
+#~ msgstr "Portefolio personalisé fait à partir de react et css"
+
+#: src/Data/SoftwareExperience.ts:200
+#: src/Data/SoftwareExperience.ts:212
+msgid "Online CV"
+msgstr "Curriculum Vitea en ligne"
+
+#: src/Data/SoftwareExperience.ts:8
+#~ msgid "Order Service"
+#~ msgstr "Service de commande"
+
+#: src/Data/SoftwareExperience.ts:10
+msgid "Order system management"
+msgstr "Gestion de système de commande"
+
+#: src/Data/SoftwareExperience.ts:29
+msgid "Project Management"
+msgstr "Gestion de projet"
+
+#: src/Data/SoftwareExperience.ts:143
+msgid "Recommandation document writing"
+msgstr "Écriture de recommandations"
+
+#: src/Data/SoftwareExperience.ts:180
+msgid "Refactoring and optimisation"
+msgstr "Optimisation et réusinage"
+
+#: src/Data/SoftwareExperience.ts:132
+msgid "Reviewed some SQL rollback actions and wrote conclusions on what when why"
+msgstr "Révision et approbation de requête SQL de type 'rollback' et écriture de conclusion sur comment, pourquoi, quand."
+
+#: src/Data/SoftwareExperience.ts:46
+msgid "Rhino-Grasshopper Automation"
+msgstr "Automatisation de Rhino et Grasshopper"
+
+#: src/Data/SoftwareExperience.ts:183
+msgid "September 2017"
+msgstr "Septembre 2017"
+
+#: src/Data/SoftwareExperience.ts:113
+msgid "September 2019"
+msgstr "Septembre 2019"
+
+#: src/Data/MecanicExperience.ts:13
+#: src/Data/MusicExperience.ts:13
+#: src/Data/SoftwareExperience.ts:107
+msgid "Shaders"
+msgstr "Vertex Shaders"
+
+#: src/Data/SoftwareExperience.ts:75
+msgid ""
+"Similar to the Rhino-Grasshopper Automation above, we were tasked previously to create a \n"
+"standalone webservice that would generate 3D post-processed GCode to mill out foam. The pathing was created with\n"
+"grasshopper script while the tool displacement was written in C#, with the conversion from List<Points> to a\n"
+"GCode executable."
+msgstr "Similaire à l'automatisation de Rhino et Grasshopper, on a été mandaté à créer un service sur le cloud qui génère du code G pour fraisage à partir de configuration données et de scans de pieds existants. Le déplacement d'outil aura été recalculé par les normals du modèles reparamétré dans Grasshopper puis la List<Point> est transformée en 'Gcode post-processed'"
+
+#: src/Data/MecanicExperience.ts:19
+msgid "So many things. Like, so many."
+msgstr "Tellment de choses, 'genre', vraiment beaucoup."
+
+#: src/Data/SoftwareExperience.ts:88
+#: src/Data/SoftwareExperience.ts:116
+msgid "Software Developper"
+msgstr "Développeur"
+
+#: src/Data/SoftwareExperience.ts:186
+msgid "Software Developper Intern"
+msgstr "Stagaire Développeur logiciel"
+
+#: src/Data/SoftwareExperience.ts:47
+msgid ""
+"Some of the modelisation was previously crafted via visual scripting with grasshopper and Rhino.\n"
+"So we've been tasked to write a service in .Net Framework that would listen to newly arrived 3D model with their\n"
+"inputed parameters which would create the relative and conform foot orthosis 3d model."
+msgstr "Certaines étapes de modélisation étaient précédement complété via rhino et grasshopper en scriptage visuel. Nous avons donc créer un service .Net Framework qui recoit les différents modèles avec les prescriptions associés afin de gérérer les modèles 3D à imprimer."
+
+#: src/Data/SoftwareExperience.ts:139
+msgid ""
+"Subsequent to the validation of IT processes, wrote recommandation for the different teams\n"
+"when they should change some of their processes in due time."
+msgstr "En réponse à la validation des processus IT, j'ai écrit des recommandation pour les différentes équipes qu'ils devraient apporter sur les différents processus"
+
+#: src/Data/SoftwareExperience.ts:175
+msgid ""
+"The team had some previous tools that were written in Visual Basic which were really poorly \n"
+"written (4000+ lines methods, variable names unreadable (i.e: vim DoSt(vr, ae, vva, aas, mmb, etc.))) that I partly\n"
+"refactored."
+msgstr "L'équipe avait des vieux outils qui étaient écrit en VisualBasic et de piètre qualité (4000 lignes et plus pour une fonction avec des noms de variables illisibles: vim DoSt(vr, ae, vva, aas, mmb, etc.)) que j'ai eu le temps de partiellement ré-usiner"
+
+#: src/Data/SoftwareExperience.ts:201
+msgid ""
+"This is basically a place for me to write about me, anb publish, maybe songs that I wrote\n"
+"myself or with my band, Coldsun"
+msgstr "Ici est un petit espace pour écrire de moi et peut-être publier des chansons que j'ai écrites moi-même ou avec le band dont je fais parti, Coldsun"
+
+#: src/Pages/Music.tsx:21
+msgid "This was recorded in coldsun drummer's basement. We have since improved the song quite a bit and mostly, are more at ease playing it. Also, you can totally hear the change to 7/4 and how incomfortable it made me while singing.<0/><1/>Vocals: JP, Antoine<2/>Guitar: JP,<3/>Bass: Antoine,<4/>Drums: Franco,<5/>Mixing: Antoine,<6/>Mastering: Antoine,<7/>Lyrics: Franco,<8/>Composition: JP, Franco, Antoine"
+msgstr "Celle-ci a été enregistré dans le sous-sol du drummer. On a depuis amélioré la chanson, mais on a pas de nouvel enregistrement présentable. De plus, on peut vraiment bien entendre le changement au 7/4 et à quel point j'étais inconfortable à chanter. <0/><1/>Voix: JP, Antoine<2/>Guitare: JP,<3/>Basse: Antoine,<4/>Drums: Franco,<5/>Mixing: Antoine,<6/>Mastering: Antoine,<7/>Paroles: Franco,<8/>Composition: JP, Franco, Antoine"
+
+#: src/Data/SoftwareExperience.ts:135
+msgid "Validation of IT processes"
+msgstr "Validation de processus IT"
+
+#: src/Data/SoftwareExperience.ts:65
+msgid ""
+"We explored creating our own queue system for our production team with the automation of \n"
+"self feeding 3D printing machine. The plan, which was never fully developped, was to have a cluster of printer\n"
+"working continuously, ejecting printed parts autonomously. We had a working prototype but we never were able to \n"
+"complete the ejection, which aborted the project."
+msgstr "On a fait de l'exploration (aka. R&D) afin de créer notre propre système de queue pour l'automatisation de la production d'orthèse plantaires imprimés. Le plan, qui n'a jamais été complété, était d'avoir un group d'imprimante reliées par des raspberry pi qui lancerait le code d'éjection des pièces imprimées suivis du prochain item à imprimer dans la queue. Malheureusement, l'éjection n'a jamais réussi ce qui a arrêté le projet."
+
+#: src/Data/SoftwareExperience.ts:21
+msgid ""
+"We used both github action to autobuild, autotest and autodeploy on a schedule. We also\n"
+"used a queue to start different services whenever available since some computation was made on a slower machine \n"
+"and took significant time, but was used 5% of the day, which was fine."
+msgstr "On a utilisé les actions de github afin de fabriquer, tester et déplyer automatiquement les différents projets selon un horaire préétabli."
+
+#: src/Data/SoftwareExperience.ts:30
+#~ msgid ""
+#~ "We used github project with its issues as a kanban tracker. We configured multiple views\n"
+#~ "and were able to automate some of the"
+#~ msgstr "L'utilisation de github project avec ses 'issues' comme ticket nous a servi de tracker kanban. J'avais configuré plusieurs vues permettant de mieux saisir l'évolution des projets. De plus, certaines étapes dans l'évolution des billets étaient automatisé grâce à des github 'actions'"
+
+#: src/Data/SoftwareExperience.ts:30
+msgid ""
+"We used github project with its issues as a kanban tracker. We configured multiple views\n"
+"and were able to automate some of the tracking within the normal use of issues and pull requests statuses."
+msgstr "L'utilisation de github project avec ses 'issues' comme ticket nous a servi de tracker kanban. J'avais configuré plusieurs vues permettant de mieux saisir l'évolution des projets. De plus, certaines étapes dans l'évolution des billets étaient automatisé grâce à des github 'actions'"
+
+#: src/Data/SoftwareExperience.ts:56
+msgid ""
+"We were tasked in adapting 3dviewer.net viewer to allow our users to see the 3D models of \n"
+"the scans as well as the completed orthotics. We added more functionnality in the viewer as well to pipe some\n"
+"of the locally used tool into a complete back-end service"
+msgstr "On m'a aussi demandé d'adapter le visualisation '3dviewer.net viewer' afin de permettre à nos utilisateurs de voir les modèles 3D des différents produits. De plus, j'ai ajouté des fonctionnalités qiu ont permis de décentraliser certains opérations effectuer localement précédement."
+
 #. js-lingui-explicit-id
-#: src/Components/About.tsx:12
+#: src/Pages/About.tsx:34
 msgid "About.Why"
 msgstr "Pourquoi"
+
+#: src/Data/SoftwareExperience.ts:185
+msgid "Worked with an Electrical engineer team to automate some of their tasks"
+msgstr "J'ai travaillé avec une équipe d'ingénieur électrique afin d'automatiser certaines de leurs tâches."

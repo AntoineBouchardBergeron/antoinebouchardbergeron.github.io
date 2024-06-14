@@ -1,8 +1,13 @@
+div {
+    flex-basis: content;
+    align-self: center;
+    flex-grow: 1;
+}
+
 header {
     font-style: italic;
     display: flex;
-    padding: 1rem;
-    height:10vh;
+
     min-height: 100px;
 }
 
@@ -10,32 +15,28 @@ header {
     flex: none;
 }
 
-div {
-    flex-basis: content;
-    align-self: center;
-    flex-grow: 1;
-}
-
-h1 {
-    align-items: flex-start;
-    font-weight: 300;
-    a {
-        color: var(--text-primary);
-        text-decoration: none;
-    };
-}
-
 ul.navigation {
     align-items: flex-start;
+    padding-inline-start: 0px;
 }
 
 li.navigation {
+    margin-right: 1rem;
     display: inline-flex;
     list-style: none;
 }
 
-a {
-    padding: 0.3rem;
-    color: var(--text-secondary);
-    text-decoration: none;
-};
+li.navigation :hover {
+    border-bottom: #aaaaaa;
+    border-bottom-style: outset;
+    transition: all ease 0.1s;
+}
+
+li.navigation-active {
+    display: inline-flex;
+    list-style: none;
+    margin-right: 1rem;
+    border-radius: "80%";
+    border-bottom: var(--accent);
+    border-bottom-style: outset;
+}
